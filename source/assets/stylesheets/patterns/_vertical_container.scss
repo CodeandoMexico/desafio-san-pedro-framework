@@ -2,6 +2,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 50px;
 
   section {
     flex: 1;
@@ -13,12 +15,12 @@
     .stuff {
       max-width: 80%;
 
-      ul {
-        list-style: circle;
-      }
+      h3 { font-size: 1.5em; }
+      p { font-size: 1em; }
     }
 
     span {
+      font-size: 5em;
       align-self: center;
     }
   }
