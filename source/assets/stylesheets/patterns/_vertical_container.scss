@@ -1,0 +1,25 @@
+.vertical__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  section {
+    flex: 1;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .stuff {
+      max-width: 80%;
+
+      ul {
+        list-style: circle;
+      }
+    }
+
+    span {
+      align-self: center;
+    }
+  }
+}

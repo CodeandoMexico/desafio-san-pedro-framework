@@ -3,5 +3,10 @@
 @import "bourbon";
 @import "base/base";
 @import "neat";
+@import 'patterns/navigation';
+@import 'patterns/vertical_container';
+@import 'patterns/horizontal_container';
+@import 'patterns/flexboxes';
+@import 'patterns/flexboxes-no-background';
 
 @import "global";
