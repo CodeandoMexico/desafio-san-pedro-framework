@@ -11,6 +11,17 @@
 
     section {
       margin-bottom: 40px;
+
+      .subsection {
+        padding-bottom: 40px;
+        border-bottom: 1px $light-gray solid;
+
+        button {
+          background-color: $dsp__red;
+          font-size: 1.2em;
+        }
+      }
+
       p {
         margin-bottom: 15px;
       }
