@@ -1,0 +1,10 @@
+$base-margin: 40px;
+
+.participate__content {
+    @extend .main__content;
+
+    .title {
+      color: white;
+      background-color: $dsp__blue2;
+    }
+}
