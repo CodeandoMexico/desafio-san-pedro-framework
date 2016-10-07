@@ -1,21 +1,46 @@
 $base-margin: 40px;
 
 .cd-horizontal-timeline {
-  .events ol li a {
-    font-family: $base-font-family;
-    font-size: 1em;
-    font-weight: 300;
+  border-bottom: 1px $light-gray solid;
+  
+  .timeline {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .events ol li {
+    padding-left: 0;
+    padding-right: 0;
+
+    a {
+      font-family: $base-font-family;
+      font-size: 1em;
+      font-weight: 300;
+    }
   }
 
   ul.cd-timeline-navigation {
     list-style: none;
   }
 
-  h2 {
-    font-weight: 300;
-    font-size: 2em;
-    color: $dsp__blue;
-    margin-bottom: $base-margin / 2.0;
+  .events-content ol li {
+    padding-left: 0;
+    padding-right: 0;
+    h2 {
+      font-weight: 300;
+      font-size: 1.5em;
+      color: $dsp__green;
+      padding-bottom: 15px;
+    }
+
+    em {
+      // color: $dsp__red;
+      padding-bottom: $base-margin / 2.0;
+    }
+    p {
+      font-style: italic;
+      font-size: 1em;
+    }
   }
 }
 
@@ -59,13 +84,13 @@ $base-margin: 40px;
 }
 .cd-horizontal-timeline .events-wrapper::before {
   left: 0;
-  background-image: -webkit-linear-gradient( left , #f8f8f8, rgba(248, 248, 248, 0));
-  background-image: linear-gradient(to right, #f8f8f8, rgba(248, 248, 248, 0));
+  background-image: -webkit-linear-gradient( left , transparentize(white, 0.1), rgba(248, 248, 248, 0));
+  background-image: linear-gradient(to right, transparentize(white, 0.1), rgba(248, 248, 248, 0));
 }
 .cd-horizontal-timeline .events-wrapper::after {
   right: 0;
-  background-image: -webkit-linear-gradient( right , #f8f8f8, rgba(248, 248, 248, 0));
-  background-image: linear-gradient(to left, #f8f8f8, rgba(248, 248, 248, 0));
+  background-image: -webkit-linear-gradient( right , transparentize(white, 0.1), rgba(248, 248, 248, 0));
+  background-image: linear-gradient(to left, transparentize(white, 0.1), rgba(248, 248, 248, 0));
 }
 .cd-horizontal-timeline .events {
   /* this is the grey line/timeline */
