@@ -1,0 +1,18 @@
+.challenge__content {
+    @extend .main__content;
+
+    .header {
+        color: white;
+        background-color: $dsp__main;
+
+        .title { color: white }
+        .subtitle { color: $dsp__yellow }
+    }
+
+    section {
+      margin-bottom: 40px;
+      .section__content {
+        margin-bottom: 15px;
+      }
+    }
+}
