@@ -47,8 +47,16 @@
   background-color: $dsp__lightblue;
 }
 
+.light-gray-background {
+  background-color: transparentize($light-gray, 0.9);
+}
+
 .dark-blue-text-color {
   color: $dsp__main;
+}
+
+.medium-dark-blue-text-color {
+  color: $dsp__blue;
 }
 
 .light-blue-text-color {
@@ -63,6 +71,36 @@
   color: white;
 }
 
+.red-text-color {
+  color: $dsp__red;
+}
+
+.yellow-text-color {
+  color: $dsp__yellow;
+}
+
+.green-text-color {
+  color: $dsp__green;
+}
+
 .m-b {
   margin-bottom: 70px;
+}
+
+.fitness-content {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 80%;
+}
+
+.no-border-right {
+  border-right: none !important;
+}
+
+.no-border-bottom {
+  border-bottom: none !important;
+}
+
+.border-top {
+  border-top: 1px $light-gray solid;
 }

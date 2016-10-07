@@ -9,8 +9,8 @@
   $medium-screen: 40em !default;
   $large-screen: 53.75em !default;
   $base-font-color: $dark-gray !default;
-  $grid-items-background: $base-background-color;
-  $grid-item-background: $base-background-color;
+  $grid-items-background: none;
+  $grid-item-background: none;
   $grid-item-border: 1px solid transparentize($base-font-color, 0.8);
   $grid-item-columns: 4;
   $grid-item-big-columns: 8;
@@ -59,7 +59,10 @@
 
   .grid-item p {
       padding-top: 2em;
-      color: transparentize($grid-item-color, 0.4);
+      // color: transparentize($grid-item-color, 0.4);
+      font-size: 1em;
+      font-weight: 300;
+      color: transparentize($dark-gray, 0.3);
       line-height: 1.5em;
       text-align: center;
 
