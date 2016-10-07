@@ -1,0 +1,31 @@
+$base-margin: 40px;
+
+.faq__content {
+  min-height: 700px;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 70px;
+
+  .title {
+    text-align: center;
+    font-size: 4em;
+    color: $dsp__main;
+    font-weight: 300;
+    margin-bottom: $base-margin;
+    margin-top: $base-margin;
+  }
+
+  .question {
+    margin-bottom: $base-margin;
+    .question__title {
+      font-size: 2em;
+      color: $dsp__blue;
+      margin-bottom: $base-margin / 2.0;
+    }
+    .question__content {
+      font-size: 1.2em;
+      color: transparentize($dark-gray, 0.3);
+    }
+  }
+}
