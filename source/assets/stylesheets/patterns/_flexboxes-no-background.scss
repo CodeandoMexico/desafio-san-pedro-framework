@@ -58,6 +58,7 @@
     }
 
   .grid-item p {
+      padding-top: 2em;
       color: transparentize($grid-item-color, 0.4);
       line-height: 1.5em;
       text-align: center;
