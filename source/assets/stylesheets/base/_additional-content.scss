@@ -54,6 +54,14 @@ $base-margin: 40px;
         font-weight: 300;
         color: transparentize($dark-gray, 0.3);
       }
+
+      li > a {
+        color: $dsp__red;
+
+        &:hover {
+          color: darken($dsp__red, 30%);
+        }
+      }
     }
   }
 }
