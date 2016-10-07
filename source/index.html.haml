@@ -62,14 +62,14 @@ title: Desafío San Pedro
 
   
 
--# Sección: Ayúdanos a hacer historia
-.multiplePointerContainer__pointer
-  .title
-    %h1 Ayúdanos a hacer historia
-  = partial "patterns/flexboxes-no-background"
-
 -# Sección: Ejes temáticos
-.multiplePointerContainer__pointer
+.multiplePointerContainer__pointer.fitness-content
   .title
-    %h1 Ejes temáticos
+    %h1.yellow-text-color Ejes temáticos
   = partial "patterns/flexboxes"
+
+-# Sección: Ayúdanos a hacer historia
+.multiplePointerContainer__pointer.light-gray-background
+  .title
+    %h1.red-text-color Ayúdanos a hacer historia
+  = partial "patterns/flexboxes-no-background"
