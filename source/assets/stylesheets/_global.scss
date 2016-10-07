@@ -2,6 +2,11 @@ body {
   height: 100%;
 }
 
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+
 .image__container{
   height: 700px;
   background: url('/images/banner.png') no-repeat center center fixed;
