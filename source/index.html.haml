@@ -3,34 +3,41 @@ title: Desafío San Pedro
 ---
 
 -# Banner Principal
-.vertical__container.dark-blue-background
-  .image__container= image_tag 'banner.png', height: '100%'
+%section.banner.dark-blue-background
+  .multiplePointerContainer__pointer.fitness-content
+    %h1.lspartan Desaf&iacute;oSP
+    %h2.subtitle.yellow-text-color ¿Qué pasaría si los problemas más complejos de nuestra municipio fuesen resueltos en conjunto con las personas más creativas de nuestra comunidad?
 
 -# Sección: ¿Qué es?
-.vertical__container.dark-blue-background
+.vertical__container.whatis
   %section
-    %span.medium-blue-text-color.big-text
-      ¿Qué es?
+    %span.medium-blue-text-color.big-text.lspartan ¿Qué es?
   %section
     .keyPoints
       .stuff
+        .atom.blue
+          = File.read('./source/assets/images/atom.svg')
         %h3.medium-blue-text-color Una nueva manera de resolver problemas públicos
-        %p.white-text-color Buscamos crear un modelo de gobierno más descentralizado, colaborativo, y que sepa aprovechar la inteligencia y talentos dispersos en su comunidad en la resolución de problemas públicos.
+        %p Buscamos crear un modelo de gobierno más descentralizado, colaborativo, y que sepa aprovechar la inteligencia y talentos dispersos en su comunidad en la resolución de problemas públicos.
       .stuff
+        .atom.yellow
+          = File.read('./source/assets/images/atom.svg')
         %h3.medium-blue-text-color Un nuevo paradigma de Participación Ciudadana
-        %p.white-text-color Queremos transformar la manera de interactuar contigo y nuestra comunidad creando un nuevo espacio para una participación ciudadana activa y con impacto.
+        %p Queremos transformar la manera de interactuar contigo y nuestra comunidad creando un nuevo espacio para una participación ciudadana activa y con impacto.
 
       .stuff
+        .atom.green
+          = File.read('./source/assets/images/atom.svg')
         %h3.medium-blue-text-color Una nueva forma de trabajo: el municipio como laboratorio de innovación
-        %p.white-text-color Involucramos a todas las áreas del municipio a que formen parte de esta iniciativa para facilitar la identificación problemas prioritarios para ti. Queremos que el municipio en su totalidad se convierta en un laboratorio de innovación.
+        %p Involucramos a todas las áreas del municipio a que formen parte de esta iniciativa para facilitar la identificación problemas prioritarios para ti. Queremos que el municipio en su totalidad se convierta en un laboratorio de innovación.
 
 -# Sección: Participas
 -# .image__container= image_tag 'banner_2.png', width: '100%', height: '100%'
 .vertical__container.medium-dark-blue-background
   .multiplePointerContainer__pointer.participate__content
-    %h2.title.right Participa
+    %h2.title.right.lspartan Participa
     .row
-      .left.half
+      .left.half.first
         %span.number.yellow 1
         %p.title Elige un desaf&iacute;o 
         %p.body 
@@ -69,7 +76,7 @@ title: Desafío San Pedro
   = partial "patterns/flexboxes"
 
 -# Sección: Ayúdanos a hacer historia
-.multiplePointerContainer__pointer.light-gray-background
+.multiplePointerContainer__pointer.light-gray-background.historia
   .title
     %h1.red-text-color Ayúdanos a hacer historia
   = partial "patterns/flexboxes-no-background"

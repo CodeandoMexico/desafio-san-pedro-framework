@@ -99,3 +99,29 @@
     width: 4px;
   }
 }
+.history{
+  .svg{
+    opacity: .25;
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;    
+  }
+  .medal.svg{
+    background: url(../images/medal.svg) no-repeat;
+  }
+  .diploma.svg{
+    background: url(../images/diploma.svg) no-repeat;
+  }
+  .present.svg{
+    background: url(../images/present.svg) no-repeat;
+  }
+  .community.svg{
+    background: url(../images/community.svg) no-repeat;
+  }
+  .mentor.svg{
+    background: url(../images/mentor.svg) no-repeat;
+  }
+  .network.svg{
+    background: url(../images/network.svg) no-repeat;
+  }
+}

@@ -13,6 +13,16 @@ $base-margin: 40px;
     .half{
     	@include span-columns(6);
     }
+    .first.half{
+        position:relative;
+        &::after{
+            content: '';
+            position: absolute;
+            border-right: 2px dashed $dsp__red;
+            height: 80px;
+            left: 35%;
+        }
+    }
     .right.half{
     	position: relative;
     	&::before{

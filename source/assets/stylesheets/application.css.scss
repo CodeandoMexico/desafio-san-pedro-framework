@@ -4,17 +4,20 @@
 @import "base/base";
 @import "neat";
 @import "timeline";
+@import "fonts";
 
 @import 'patterns/navigation';
 @import 'patterns/vertical_container';
-@import 'patterns/horizontal_container';
 @import 'patterns/flexboxes';
+@import 'patterns/horizontal_container';
 @import 'patterns/flexboxes-no-background';
 @import 'patterns/footer';
 @import 'patterns/multiple_points_container';
 
 @import "global";
 
+@import "home";
 @import "faqs";
 @import "participate";
 @import "challenge";
+@import "whatis";

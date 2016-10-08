@@ -1,0 +1,16 @@
+
+.whatis{
+	padding: 6% 0;
+	p{color: #1482c8; margin-left: 80px;}
+	h3.medium-text-blue-color{
+		font-weight: 600 !important;
+	}
+	.atom{
+		width: 60px;
+		height: 60px;
+		float: left;
+		margin-right: 20px;
+		&.yellow path{fill: $dsp__yellow; }
+		&.green path{fill: $dsp__green; }
+	}
+}

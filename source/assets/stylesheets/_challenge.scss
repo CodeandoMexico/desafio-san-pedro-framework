@@ -12,10 +12,17 @@
     section {
       margin-bottom: 40px;
 
+      .desafio{
+        font-size: 40px;
+        text-align: center;
+      }
+      .subtitle{
+        font-size: 30px;
+        text-align: center;
+        color: $dsp__yellow;
+      }
       .subsection {
         padding-bottom: 40px;
-        border-bottom: 1px $light-gray solid;
-
         button {
           background-color: $dsp__red;
           font-size: 1.2em;
