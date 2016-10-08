@@ -1,0 +1,81 @@
+-
+  area: Comunidad
+  question: ¿Cómo incrementar el uso y aprovechamiento de los espacios públicos en el Municipio?
+  intro: "Los espacios públicos son el corazón de nuestra vida democrática. En ellos nos encontramos con nuestra comunidad, intercambiamos ideas y experiencias, y aprendemos de nuestros distintos puntos de vista. <br><br> Queremos diseñar contigo los roles, actividades y características que deberían de tener nuestros espacios públicos para fomentar una mayor convivencia y promover actividades que llenen de vida, arte y deporte a nuestra comunidad."
+  context: "<p>El municipio cuenta con cientos de espacios públicos (parques, bibliotecas, casas de cultura, etc.), sin embargo, no hay una manera sencilla de ubicarlos, conocer sus actividades o proponer nuevas,, solicitar su uso y, en general, aprovecharlos mejor en lo que a ustedes les interesa. <br><br> Por otro lado, es difícil saber a quiénes les interesa usar estos espacios para hacer deporte, arte, usarlos como punto de reunión y recreación, o para cualquier otra actividad.<br><br> Necesitamos que nos ayudes a optimizar y crear una solución para incrementar el uso y el aprovechamiento de los espacios públicos en nuestro municipio. <br><br>Nuestra comunidad tiene mucho talento y queremos apoyarlo mediante nuestros espacios. <br><br> Aquí hay una lista de los programas del municipio que ya contribuyen al uso de los espacios públicos:</p> <ul><li> San Pedro Arte Fest  </li> <li> Feria de San Pedro </li> <li> San Pedro Restaurant Week </li> <li> San Pedro de Pinta </li> <li> Así como distintos maratones, concursos y bazares en los distintos gimnasios de municipio.</li></ul>"
+  criteria:
+    - Las necesidades de las comunidades cercanas a los espacios públicos son claves para el desarrollo de una propuesta sólida, ¿cómo las incluirías? 
+    - La movilidad y proximidad son variables importantes a tomar en cuenta ¿cómo las optimizamos? 
+  remember: los espacios públicos son de todos y todas, por lo que la solución que integre mayores voces y diversidad en su propuesta tendrá mayor legitimidad y posibilidades de éxito durante la etapa de implementación. 
+  datos:
+    - 
+      name: Listado de los espacios públicos del municipio;
+      link: 
+    - 
+      name: Listado de las actividades que se realizan por espacio público;
+      link: 
+    - 
+      name: Listado de los servicios e instalaciones con los que se cuenta en cada espacio público (aparatos deportivos, juegos de niños, vitapista, tipo de canchas, tipo de clases etc.)
+      link: 
+  casos:
+    - 
+      name: "Government of Rio de Janeiro: Crowdsourcing the 2016 Olympic Legacy"
+      link: "http://crowdicity.com/en/customers/education-and-public-sector/government-of-rio-de-janeiro-crowdsourcing-the-2016-olympic-legacy/#sthash.CCQk1OJP.dpuf"
+    - 
+      name: "Ten Strategies for Transforming Cities and Public Spaces through Placemaking"
+      link: "http://www.pps.org/reference/ten-strategies-for-transforming-cities-through-placemaking-public-spaces/"
+    - 
+      name: "Taking back the streets"
+      link: "http://www.nytimes.com/2008/04/06/nyregion/thecity/06stre.html?scp=3&sq=Project+for+Public+Spaces&st=nyt"
+    - 
+      name: "More Awesome Now: Vancouver Alley Makeovers"
+      link: "https://nextcity.org/daily/entry/vancouver-alley-makeovers"
+-
+  area: Eficiencia Gubernamental
+  question: ¿Cómo rediseñarías los trámites y servicios de tu municipio?
+  intro: "La prestación de servicios públicos a la ciudadanía es la tarea más importante de la mayoría de los departamentos del Municipio.<br><br> Todos y todas esperamos que los servicios sean más transparentes, accesibles y receptivos. Sin embargo, aunque muchos gobiernos han hecho esfuerzos como ventanillas únicas, centros de llamadas centralizados o rediseñado sus portales en línea, éstos no han resultado en un cambio significativo, siguen siendo lentos de acuerdo a la expectativa de la comunidad y a menudo es necesario hablar con varias personas y distintos departamentos para encontrar la respuesta a una pregunta.<br><br> ¡En nuestro municipio queremos co-crear contigo los nuevos trámites y servicios!<br><br> A continuación te presentamos el contexto de San Pedro, ponemos a tu disposición datos que pudieran ser relevantes para formular mejores propuestas y te brindamos algunos de los ejemplos que hemos estado considerando como posibles soluciones. "
+  context: "<p>A la fecha, únicamente existen cuatro trámites que se pueden realizar vía electrónica: 1) pago del impuesto predial; 2) el pago de multas; 3) denuncias contra funcionarios (Puerta Abierta); y, 4) reportes ciudadanos (CIAC) a pesar de que casi el 90 por ciento de los habitantes del Municipio tienen acceso a internet.</p><br> <p><strong>Actualmente, los trámites de mayor demanda son:</strong></p> <ul><li>Licencia de manejo*;  </li> <li>Renovación de pasaporte*;  </li> <li>Licencia de construcción de casa habitación; </li> <li>Pago de impuesto predial;  </li> <li>Licencia de uso de suelo; </li> <li>Alta en el padrón de proveedores; </li> <li>Licencia de uso de edificación; </li> <li>Inscripción en escuelas deportivas;  </li> <li>Licencia de construcción multifamiliar; y,  </li> <li>el SARE. </li></ul> <p>(*) Estos trámites se realizan dentro del territorio del municipio, pero son de competencia estatal y federal respectivamente. <br><br> Los trámites que toman más tiempo y que por el momento no son en línea, son los relacionados con Desarrollo Urbano, sin embargo, son los que también presentan mayor complejidad.</p>"
+
+  criteria:
+    - "Las y los ciudadanos, como usuarios de estos servicios, tienen una mejor noción de qué podría ser diferente, sin embargo, ¿cómo podemos canalizar de manera efectiva sus sugerencias? "
+    - "¿Qué diseño propondrías que maximice la transparencia, confiabilidad, eficiencia y puntualidad de los trámites y servicios? "
+    - "¿Cómo proteger los datos personales de maner efectiva y que genere confianza a las y los usuarios de los servicios? "
+    - "¿Cómo aplicar los principios de diseño centrado en la persona para cada uno de los trámites? "
+    - "¿Qué implicaciones jurídicas tiene tu propuesta?"
+
+  remember: no es necesario que propongas una solución que abarque todos los trámites. Puedes concentrarte en solamente uno y que ese ejercicio, si es exitoso, se replique para todos los demás trámites y servicios aplicables.
+  datos:
+    - 
+      name: Listado de trámites y servicios que brinda el municipio
+      link: 
+    - 
+      name: Listado de trámites donde se destacan los más solicitados
+      link: 
+    - 
+      name: Diagramas de flujo de trámites y servicios municipales
+      link: 
+    - 
+      name: Requisitos de cada trámite
+      link: 
+    - 
+      name: Demanda de trámites ( Los 10 trámites más solicitados por las y los ciudadanos)
+      link: 
+    - 
+      name: Tiempos y costos de cada trámite
+      link: 
+    - 
+      name: Autoridades que intervienen en los trámites
+      link: 
+  casos:
+    - 
+      name: "Using Technology to Tackle Corruption in Urban Development"
+      link: "http://mayorschallenge.bloomberg.org/ideas/guadalajara/"
+    - 
+      name: IDB supports improved e-government services in Uruguay
+      link: "http://www.iadb.org/en/news/news-releases/2011-10-14/uruguay-improved-e-government-services,9607.html"
+    - 
+      name: "Implementing a citizen-centric approach to delivering government services"
+      link: "http://www.mckinsey.com/industries/public-sector/our-insights/implementing-a-citizen-centric-approach-to-delivering-government-services"
+    - 
+      name: "NYC 311 Mobile App"
+      link: "http://www.govtech.com/pcio/Beyond-CRM-and-311-Strategies-for.html"

@@ -65,6 +65,26 @@
   background-color: #fafafa;
 }
 .desafios_list_content{
+  .header {
+    font-weight: 300;
+    margin-bottom: $base-margin;
+    padding-top: $base-margin * 3;
+    padding-bottom: $base-margin * 3;
+    border-bottom: 1px $light-gray solid;
+    background-color: $dsp__blue;
+
+    .title {
+      text-align: center;
+      font-size: 4em;
+      color: white;
+    }
+
+    .subtitle {
+      text-align: center;
+      font-size: 2em;
+      color: white;
+    }
+  }
   h1{
     font-size: 3em;
   }

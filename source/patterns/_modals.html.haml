@@ -1,8 +1,9 @@
-.modal
-	%input#modal-1.modal-state{:type => "checkbox"}/
-	.modal-fade-screen
-		.modal-inner
-			.modal-close{:for => 'modal-1'}
-			%h1 Modal title
-			%p.modal-intro Intro Lorem ipsum dolor sit amet.
-			%p.modal-content Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit iure dicta aut cumque ab reiciendis, fugiat facere id, repellendus minus, repellat maxime officia mollitia esse sunt dolore eaque illum quidem officiis et deleniti. Eos adipisci impedit laboriosam sint minima minus?
+- i = -1
+- data.team.each do | member | i = i+1
+	.modal
+		%input.modal-state{:type => "checkbox", :id => "modal-"+i.to_s}/
+		.modal-fade-screen
+			.modal-inner
+				.modal-close{:for => 'modal-'+i.to_s}
+				%h1= member.name
+				%p.modal-content= member.bio

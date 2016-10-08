@@ -18,6 +18,7 @@ $(function() {
     e.stopPropagation();
   });
   $('.elteam .member').click(function(){
-    $("#modal-1").prop('checked', true);
+    var rel = $(this).attr('rel');
+    $("#modal-"+rel).prop('checked', true);
   });
 });

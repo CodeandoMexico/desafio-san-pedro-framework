@@ -6,11 +6,10 @@ title: El Equipo
 	%header
 		%h1.title El equipo <br> San Pedro Abierto
 	.grid-photos
-		- for i in 1..12
-			.member
-				%img{:src => "http://focuslabllc.com/assets/team/2016_headshots_Erik.jpg", :alt => "Erick"}/
+		- i = -1
+		- data.team.each do | member | i = i+1
+			.member{:rel => i}
+				%img{:src => "assets/images/equipo/#{member.image}", :alt => member.name}/
 				.overlay-data
-					%a.name{:href => "#"} Hector Rincon
-					.clear
-					%a.jobtitle{:href => "#"} Developer
+					%a.name{:href => "#"}= member.name
 	= partial "patterns/modals"

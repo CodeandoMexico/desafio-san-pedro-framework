@@ -8,15 +8,16 @@ title: Desaf&iacute;os
 	.container
 		.right
 			%h1 Desaf&iacute;os
-			%p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis sit sunt illo excepturi, corporis blanditiis molestias quasi facere fugiat sed!
+			%p Ayúdanos a transformar la forma en la que municipio y comunidad colaboran para resolver los problemas que nos interesan a todos y todas. &Uacute;nete y ayúdanos a hacer historia.
 
 			%ul.challenge-list
-				- for i in 1..4
+				- i = 0
+				- data.challenges.each do | challenge | i = i+1
 					%li
 						.row
 							.left
 								%a.solid.blue{:href => "#"}
 							.right
-								%a.area{:href => "#"} Eficiencia Gubernamental
+								= link_to challenge.area, "desafio" + i.to_s + ".html", :class => "area"
 								.clear
-								%a.title{:href => "#"} Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores sapiente, rerum, consectetur quis harum quasi. Sapiente sit consectetur possimus quia?
+								= link_to challenge.question, "desafio" + i.to_s + ".html", :class => "title"

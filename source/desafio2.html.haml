@@ -1,0 +1,49 @@
+---
+title: Desaf&iacute;o
+---
+- ch = data.challenges[1]
+.challenge__content
+  .header
+    .title= ch.area
+
+  %section
+    %p.desafio Desaf&iacute;o:
+    .subtitle= ch.question
+    .clear{:style => "height: 40px;"}
+    .subsection{style: 'text-align: center;'}
+      %a{:href =>  '#'}
+        %button &iexcl;M&aacute;ndanos tu idea!
+
+  %section.intro
+    %p= ch.intro
+  %section
+    .section__title Contexto
+    = ch.context
+    %p
+      %strong Criterios importantes a tomar en cuenta en la propuesta de una solución:
+
+    %ul
+      - ch.criteria.each do | criterion |
+        %li= criterion
+    %p
+      %strong Recuerda:
+      = ch.remember
+
+  %section
+    .section__title Datos Abiertos
+    %p
+      %strong Aquí tienes acceso a datos del municipio que podrían fortalecer tu propuesta:
+
+    %ul
+      - ch.datos.each do | dato |
+        %li= dato.name
+
+
+  %section
+    .section__title Casos ejemplares
+    %p
+      %strong Estos son unos de los casos que hemos estado estudiando como ejemplo de posibles soluciones:
+
+    %ul
+      - ch.casos.each do | caso |
+        %li= link_to caso.name, caso.link, :target => "_blank"
