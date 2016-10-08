@@ -6,6 +6,9 @@ $base-margin: 40px;
       color: white;
       background-color: $dsp__blue2;
     }
+    > section{
+        margin: 8% auto;
+    }
 	.row{
 		@include outer-container;
 		margin: 4% 0;
@@ -53,18 +56,21 @@ $base-margin: 40px;
     		top: 80px;
     	}
     }
-    p{
-    	color: #d0ecf8;
-    }
-    p.body{
-    	padding-left: 90px;
-    }
+    p{color: #d0ecf8; }
+    p.body{padding-left: 90px; }
     .right{float: right; }
     p.title{
     	color: #5dc3ee;
     	font-size: 38px;
     	// font-weight: bold;
     	text-align: left;
+    }
+    .section_title{
+        margin-bottom: 40px;
+        font-size: 35px;
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: .1em;
     }
     h2{
     	font-size: 120px;
@@ -99,5 +105,8 @@ $base-margin: 40px;
     	&.yellow{background-color: $dsp__yellow; }
     	&.blue{background-color: $blue; }
     	&.red{background-color: $dsp__red; }
+    }
+    .compromiso li, .criteria li{
+        margin-bottom: 20px;
     }
 }
