@@ -1,0 +1,16 @@
+---
+title: El Equipo
+---
+
+.elteam
+	%header
+		%h1.title El equipo <br> San Pedro Abierto
+	.grid-photos
+		- for i in 1..12
+			.member
+				%img{:src => "http://focuslabllc.com/assets/team/2016_headshots_Erik.jpg", :alt => "Erick"}/
+				.overlay-data
+					%a.name{:href => "#"} Homero Ni
+					.clear
+					%a.jobtitle{:href => "#"} Co-Founder, Creative Director
+	= partial "patterns/modals"

@@ -34,3 +34,132 @@
       }
     }
 }
+
+.contactus__content {
+  @extend .main__content;
+  .form{
+    padding: 4% 0;
+  }
+  input, textarea{
+    box-shadow: none;
+    border-radius: 0;
+    resize: none;
+    background-color: #fafafa;
+  }
+  input[type="text"], input[type="email"]{
+    height: 40px;
+  }
+  textarea{
+    height: 300px;
+  }
+  .submit.btn{
+    float: right;
+    background-color: $dsp__blue2;
+    width: 150px;
+    height: 50px;
+  }
+}
+.historia.light-gray-background{
+  background-color: #fafafa;
+}
+.desafios_list_content{
+  h1{
+    font-size: 3em;
+  }
+  p{
+    font-size: 18px;
+    color: #777;
+  }
+  .container{
+    @include outer-container;
+    margin: 5% auto;
+    > .right{
+      @include span-columns(8);
+      @include shift(2);
+    }
+  }
+  .challenge-list{
+    margin-top: 60px;
+    li{
+      margin-bottom: 60px;
+      .area{
+        color: #777;
+        text-transform: uppercase;
+        letter-spacing: .3em;
+      }
+      .title{
+        color: #4a4a4a;
+        font-size: 18px;
+        margin-top: 5px;
+      }
+      .left .solid{
+        display: block;
+        width: 180px;
+        height: 120px;
+      }
+      .row{
+        display: table;
+      }
+      .left, .right{
+        display: table-cell;
+        vertical-align: top;
+      }
+      .right{
+        padding-left: 30px;
+      }
+    }
+  }
+  .challenge-list .solid.blue{
+    background-color: $dsp__blue;
+  }
+}
+
+.elteam{
+  padding:4% 0;
+  h1.title{
+    text-align: center;
+    font-size: 5em;
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    color: #2e3c40;
+  }
+  .grid-photos{
+    @include outer-container;
+    .member{
+      @include span-columns(4);
+      @include omega(3n);
+      margin-bottom: 40px;
+      position: relative;
+      cursor: pointer;
+      &:hover .overlay-data{
+        opacity: 1;
+      }
+    }
+    .overlay-data{
+      @include transition(all 300ms ease-in-out);
+      position: absolute;
+      opacity: 0;
+      bottom: 20px;
+      background-color: #fff;
+      width: 90%;
+      left: 5%;
+      padding: 10px 20px;
+      .name{
+        text-transform: uppercase;
+        color: #2e3c40;
+        font-size: 1.9em;
+        font-weight: 600;
+        margin-bottom: 0;
+      }
+      .jobtitle{
+        text-transform: uppercase;
+        font-weight: 300;
+        font-size: .9em;
+        letter-spacing: .1em;
+        color: lighten(#2e3c40, 10%)
+      }
+    }
+  }
+}
