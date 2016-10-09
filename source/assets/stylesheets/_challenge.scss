@@ -1,45 +1,104 @@
 .challenge__content {
-    @extend .main__content;
-
-    .header {
-        color: white;
-        background-color: $dsp__main;
-        background-image: url(../images/banner.jpg);
-        background-repeat: repeat;
-        background-size: cover;
-        background-position: center;
-        
-        .title { color: white }
-        .subtitle { color: $dsp__yellow }
+  margin: 6% auto;
+  .container{
+    @include outer-container;
+  }
+  .image{
+    @include span-columns(2);
+  }
+  .row.header{
+    @include row();
+  }
+  .title{
+    @include span-columns(10);
+    @include omega();
+    .desafio{
+      font-size: 26px;
+      color: $dsp__blue2;
+      margin-bottom: 5px;
     }
-
-
-    section {
-      border-bottom: 1px solid #ccc;
-      margin: 4% auto 0;
-      padding-bottom: 4%;
-
-      .desafio{
-        font-size: 40px;
-        text-align: center;
-      }
-      .subtitle{
-        font-size: 30px;
-        text-align: center;
-        color: $dsp__yellow;
-      }
-      .subsection {
-        padding-bottom: 40px;
-        button {
-          background-color: $dsp__red;
-          font-size: 1.2em;
-        }
-      }
-
-      p {
-        margin-bottom: 15px;
-      }
+    .titulo{
+      font-size: 32px;
+      color: #305570;
+      margin-bottom: 10px;
     }
+    .area{
+      color: #b7b7b7;
+      font-size: 18px;
+      margin-bottom: 0;
+      text-transform: uppercase;
+      letter-spacing: .3em;
+    }
+  }
+  .row.blocks{
+    margin: 4% 0;
+    @include transition(all, 300ms, ease-in-out);
+    @include row(table);
+    @include fill-parent();
+    .block{
+      padding: 8% 0;
+      cursor: pointer;
+      @include span-columns(4);
+      h2{
+        text-align: center;
+        color: #fff;
+        font-size: 32px;
+        font-family: 'League Spartan', sans-serif;
+        margin: 0;
+      }
+      &::after{
+        content: '';
+        background: url(../images/icons/caret.svg);
+        display: block;
+        width: 30px;
+        height: 30px;
+        margin: 0 auto;
+        margin-top: 10px;
+      }
+      &.open::after{transform: rotate(180deg); }
+      &.bg-dspred:hover{background-color: darken($dsp__red, 10%); }
+      &.bg-dspblue2:hover{background-color: darken($dsp__blue2, 10%); }
+      &.bg-dspgreen:hover{background-color: darken($dsp__green, 10%); }
+    }
+  }
+  .fill-content{
+    h2{
+      color: $dsp__blue2;
+      font-family: 'League Spartan', sans-serif;
+      font-size: 32px;
+    }
+    ul{
+      list-style-type: disc;
+      list-style-position: inside;
+    }
+    .criteria{
+      background-color: #e9edef;
+      margin-top: 30px;
+      padding: 40px 50px;
+    }
+  }
+  p, label, li{
+    font-size: 22px;
+    line-height: 180%;
+  }
+  .btn.call-to-action{
+    background: #22a5f6;
+    color: #fff;
+    width: 330px;
+    height: 70px;
+    margin: 5% auto;
+    font-weight: 600;
+    font-size: 18px;
+    display: block;
+    text-align: center;
+    letter-spacing: .15em;
+    line-height: 3.8em;
+    text-transform: uppercase;
+    @include transition(all, 300ms, ease-in-out);
+    &:hover{
+      background: darken(#22a5f6, 10%);
+    }
+  }
 }
 
 .contactus__content {
@@ -95,7 +154,6 @@
   }
   p{
     font-size: 18px;
-    color: #777;
   }
   .container{
     @include outer-container;
@@ -190,3 +248,9 @@
     }
   }
 }
+.bg-dspred{background-color: $dsp__red; }
+.bg-dspblue{background-color: $dsp__blue; }
+.bg-dspblue2{background-color: $dsp__blue2; }
+.bg-dspyellow{background-color: $dsp__yellow; }
+.bg-dspgreen{background-color: $dsp__green; }
+p, li, label{color: #808080; }
