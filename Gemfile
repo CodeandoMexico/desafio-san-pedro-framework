@@ -16,3 +16,6 @@ gem 'middleman-cli'
 gem 'middleman-core'
 gem "neat", "~> 1.7"
 gem "sassc", "~> 1.8"
+gem "foreman", "~> 0.63"
+gem "puma", "~> 2.7"
+gem "rake", "~> 10.1"

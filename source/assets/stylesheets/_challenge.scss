@@ -4,10 +4,15 @@
     .header {
         color: white;
         background-color: $dsp__main;
-
+        background-image: url(../images/banner.jpg);
+        background-repeat: repeat;
+        background-size: cover;
+        background-position: center;
+        
         .title { color: white }
         .subtitle { color: $dsp__yellow }
     }
+
 
     section {
       border-bottom: 1px solid #ccc;
