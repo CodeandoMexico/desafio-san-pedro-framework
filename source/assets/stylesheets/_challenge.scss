@@ -128,6 +128,29 @@
 .historia.light-gray-background{
   background-color: #fafafa;
 }
+.historia{
+  .helpus{
+    width: 60%;
+    margin: 0 auto;
+    text-align: left !important;
+    li{
+      margin-bottom: 60px;
+      .svg{
+        float: left;
+      }
+      p{
+        float: right;
+      }
+    }
+  }
+  .title{
+    font-size: 45px;
+    color: $dsp__main;
+  }
+  .svg{
+    display: inline-block;
+  }
+}
 .desafios_list_content{
   margin: 6% auto;
   h1{
@@ -233,6 +256,9 @@
       }
       &:hover .overlay-data{
         opacity: 1;
+      }
+      &.center{
+        @include shift(4);
       }
     }
     .overlay-data{

@@ -76,9 +76,29 @@ title: Desafío San Pedro
 
 -# Sección: Ayúdanos a hacer historia
 .multiplePointerContainer__pointer.light-gray-background.historia
-  .title
-    %h1.red-text-color Ayúdanos a hacer historia
-  = partial "patterns/flexboxes-no-background"
+  %h1.lspartan.title Ayúdanos a hacer historia
+  %ul.helpus
+    %li.cf
+      .medal.svg
+      %p Convi&eacute;rtete en campe&oacute;n o campeona de Gobierno Abierto
+    %li.cf
+      .network.svg
+      %p Forma parte de la red de innovadores que transforma la relación de nuestro municipio con nuestra comunidad
+    %li.cf 
+      .mentor.svg
+      %p Recibe mentoría especializada por las y los expertos con mayor reconocimiento internacional y local en el tema de tu elección
+    %li.cf 
+      .diploma.svg
+      %p Obt&eacute;n un certificado del GovLab en materia de Gobierno Abierto e Innovación Abierta
+    %li.cf 
+      .community.svg
+      %p Las ideas seleccionadas se trabajarán con Municipio para implementarlas y generar un bien para toda la comunidad
+    %li.cf 
+      .present.svg
+      %p Al concluir el programa los equipos seleccionados presentarán sus proyectos ante el Alcalde, Mauricio Fernández, la directora del GovLab, Beth Noveck y el público en general
+.clear
+
+  
 - content_for :bottomScripts do
   = javascript_include_tag "jquery.countdown.min"
   :javascript
