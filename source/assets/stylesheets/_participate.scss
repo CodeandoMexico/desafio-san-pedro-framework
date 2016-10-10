@@ -109,6 +109,19 @@ $base-margin: 40px;
 		margin-bottom: 20px;
 	}
 }
+.calendar{
+	table{
+		border: 1px solid #ccc;
+		border-radius: 20px;
+		border-collapse:separate;
+		td{
+			padding-left: 20px;
+			&:first-child{
+				border-right: 1px solid #ccc;
+			}
+		}
+	}
+}
 
 
 .bases__content{
