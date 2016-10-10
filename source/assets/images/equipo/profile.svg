@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="189px" height="189px" viewBox="0 0 189 189" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.2 (33826) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="94.5" cy="94.5" r="94.5"></circle>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Equipo" transform="translate(-223.000000, -3083.000000)">
+            <g id="Group" transform="translate(223.000000, 3083.000000)">
+                <g id="CEO-portrait-corporate-headshot-09-Copy-18">
+                    <g id="profile_default">
+                        <g id="Shape">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <use id="Mask" fill="#A9A9A9" xlink:href="#path-1"></use>
+                            <path d="M115.738816,114.608648 C127.111758,102.011693 133.164077,81.4654217 133.186661,67.5360528 C133.220536,46.1813005 115.603317,24 93.1487584,24 C70.6942002,24 53.0769812,46.1813005 53.1108561,67.5360528 C53.1334394,81.5263966 59.2354425,102.1901 70.7054919,114.773506 C44.4704921,122.693463 21.5529766,143.659783 17.167303,171.326563 C15.3516071,182.785321 28.7254272,190.39137 37.3793412,194.286987 C54.3574533,201.926911 73.7497184,204.528505 92.2228438,204.664005 C110.919544,204.799505 130.467633,202.380835 147.813853,195.070627 C156.905883,191.235985 171.752133,183.449269 169.830296,171.326563 C165.413005,143.465567 142.206424,122.39988 115.738816,114.608648 Z" fill="#E1E1E1" mask="url(#mask-2)"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
