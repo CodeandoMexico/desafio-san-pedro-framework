@@ -11,6 +11,8 @@ title: El Equipo
 	- j = -1
 	- data.team.each do | group | j = j+1
 		%h2.name= teams[j]
+		- if j == 3
+			%hr{:style => "width:80%; margin: 0 auto 60px;"}
 		.grid-photos
 			- i = -1
 			- group[1].each do | member | i = i+1
