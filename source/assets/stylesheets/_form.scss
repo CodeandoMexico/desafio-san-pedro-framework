@@ -1,0 +1,20 @@
+.application__form{
+	margin: 6% auto;
+	.container{
+		@include outer-container;
+	}
+	h1{
+		font-size: 90px;
+		color: $dsp__blue3;
+		text-align: center;
+		margin-bottom: 20px;
+	}
+	p.subtitle{
+		font-size: 22px;
+		color: $dsp__main;
+	}
+	section.form h2{
+		display: none;
+	}
+}
+@import "formrenderer";
