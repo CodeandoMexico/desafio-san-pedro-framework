@@ -1,18 +1,19 @@
 ---
 title: Desaf&iacute;o
 ---
+- ch = data.challenges[0]
 .challenge__content
   %section.intro
     .container
       .row.header
         .image
-          %img{:src => "assets/images/city.png", :alt => "Titulo del desfaio"}/
+          %img{:src => "assets/images/city.png", :alt => ch.question}/
         .title
           %p.desafio.lspartan Desaf&iacute;o: 
-          %h1.titulo.lspartan= data.challenges[0].question
-          %p.area= data.challenges[0].area
-      %a.btn.call-to-action{:href => "#"} &iexcl;M&aacute;ndanos tu idea!
-      %p= data.challenges[0].intro
+          %h1.titulo.lspartan= ch.question
+          %p.area= ch.area
+      %a.btn.call-to-action{:href => "form.html"} &iexcl;M&aacute;ndanos tu idea!
+      %p= ch.intro
   %section.row.blocks
     .block.bg-dspblue2.open{:rel => 0}
       %h2 Contexto
@@ -23,26 +24,26 @@ title: Desaf&iacute;o
   %section.fill-content
     .container.contexto.active{:rel => 0}
       %h2 Contexto
-      = data.challenges[0].context
+      = ch.context
       .clear
       .criteria
         %p.title
           %strong Criterios importantes a tomar en cuenta en la propuesta de una soluci&oacute;n:
         .clear
         %ul
-          - data.challenges[0].criteria.each do | criterion |
+          - ch.criteria.each do | criterion |
             %li= criterion
         .clear{:style => "height: 30px;"}
         %p
           %strong Recuerda:
-          = data.challenges[0].remember
+          = ch.remember
     .container.datos.hidden{:rel => 1}
       %h2 Datos abiertos
       %p
         %strong Aquí tienes acceso a datos del municipio que podrían fortalecer tu propuesta:
 
       %ul
-        - data.challenges[0].datos.each do | dato |
+        - ch.datos.each do | dato |
           %li= link_to dato.name, dato.link, :target => "_blank"
     .container.ejemplos.hidden{:rel => 2}
       %h2 Casos ejemplares
@@ -50,10 +51,10 @@ title: Desaf&iacute;o
         %strong Estos son unos de los casos que hemos estado estudiando como ejemplo de posibles soluciones:
 
       %ul
-        - data.challenges[0].casos.each do | caso |
+        - ch.casos.each do | caso |
           %li= link_to caso.name, caso.link, :target => "_blank"
 
-  %a.btn.call-to-action{:href => "#"} &iexcl;M&aacute;ndanos tu idea!
+  %a.btn.call-to-action{:href => "form.html"} &iexcl;M&aacute;ndanos tu idea!
 - content_for :bottomScripts do
   :javascript
     $(function(){

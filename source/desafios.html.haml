@@ -7,14 +7,15 @@ title: Desaf&iacute;os
 		%h1 Desaf&iacute;os
 		%p.tac Ayúdanos a transformar la forma en la que municipio y comunidad colaboran para resolver los problemas que nos interesan a todos y todas.
 		.listado
-			- for i in 1..6
+			- i = 0
+			- data.challenges.each do | ch | i = i+1
 				.reto
 					.image
 						%img{:src => "assets/images/city.png", :alt => "City"}/
 					.content
-						%p.title= data.challenges[0].question
-						%p.area.red= data.challenges[0].area
+						%p.title= ch.question
+						%p.area.red= ch.area
 						%p.desc Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt ad, hic dolorem laudantium quidem velit fugit facere mollitia excepturi totam doloremque fugiat iste aperiam corporis. Delectus, voluptas reprehenderit expedita molestias.
-						%a.go-to.lspartan{:href => "#"}
+						%a.go-to.lspartan{:href => "desafio"+i.to_s+".html"}
 							Ir al desaf&iacute;o 
 							%span.ico.arrow

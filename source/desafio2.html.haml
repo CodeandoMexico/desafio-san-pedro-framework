@@ -3,47 +3,71 @@ title: Desaf&iacute;o
 ---
 - ch = data.challenges[1]
 .challenge__content
-  .header
-    .title= ch.area
-
-  %section
-    %p.desafio Desaf&iacute;o:
-    .subtitle= ch.question
-    .clear{:style => "height: 40px;"}
-    .subsection{style: 'text-align: center;'}
-      %a{:href =>  'form.html'}
-        %button &iexcl;M&aacute;ndanos tu idea!
-
   %section.intro
-    %p= ch.intro
-  %section
-    .section__title Contexto
-    = ch.context
-    %p
-      %strong Criterios importantes a tomar en cuenta en la propuesta de una solución:
+    .container
+      .row.header
+        .image
+          %img{:src => "assets/images/city.png", :alt => ch.question}/
+        .title
+          %p.desafio.lspartan Desaf&iacute;o: 
+          %h1.titulo.lspartan= ch.question
+          %p.area= ch.area
+      %a.btn.call-to-action{:href => "form.html"} &iexcl;M&aacute;ndanos tu idea!
+      %p= ch.intro
+  %section.row.blocks
+    .block.bg-dspblue2.open{:rel => 0}
+      %h2 Contexto
+    .block.bg-dspgreen{:rel => 1}
+      %h2 Datos abiertos
+    .block.bg-dspred{:rel => 2}
+      %h2 Casos ejemplares
+  %section.fill-content
+    .container.contexto.active{:rel => 0}
+      %h2 Contexto
+      = ch.context
+      .clear
+      .criteria
+        %p.title
+          %strong Criterios importantes a tomar en cuenta en la propuesta de una soluci&oacute;n:
+        .clear
+        %ul
+          - ch.criteria.each do | criterion |
+            %li= criterion
+        .clear{:style => "height: 30px;"}
+        %p
+          %strong Recuerda:
+          = ch.remember
+    .container.datos.hidden{:rel => 1}
+      %h2 Datos abiertos
+      %p
+        %strong Aquí tienes acceso a datos del municipio que podrían fortalecer tu propuesta:
 
-    %ul
-      - ch.criteria.each do | criterion |
-        %li= criterion
-    %p
-      %strong Recuerda:
-      = ch.remember
+      %ul
+        - ch.datos.each do | dato |
+          %li= link_to dato.name, dato.link, :target => "_blank"
+    .container.ejemplos.hidden{:rel => 2}
+      %h2 Casos ejemplares
+      %p
+        %strong Estos son unos de los casos que hemos estado estudiando como ejemplo de posibles soluciones:
 
-  %section
-    .section__title Datos Abiertos
-    %p
-      %strong Aquí tienes acceso a datos del municipio que podrían fortalecer tu propuesta:
+      %ul
+        - ch.casos.each do | caso |
+          %li= link_to caso.name, caso.link, :target => "_blank"
 
-    %ul
-      - ch.datos.each do | dato |
-        %li= dato.name
+  %a.btn.call-to-action{:href => "form.html"} &iexcl;M&aacute;ndanos tu idea!
+- content_for :bottomScripts do
+  :javascript
+    $(function(){
+      $('.block').click(function(){
+        var rel = $(this).attr('rel');
+        if($(this).hasClass('open')){
+          return false;
+        }
+        $('.block.open').removeClass('open');
+        $(this).addClass('open');
+        $('.fill-content .container.active').removeClass('active').fadeOut(function(){
+          $('.fill-content .container[rel='+rel+']').fadeIn().addClass('active').removeClass('hidden');
+        });
 
-
-  %section
-    .section__title Casos ejemplares
-    %p
-      %strong Estos son unos de los casos que hemos estado estudiando como ejemplo de posibles soluciones:
-
-    %ul
-      - ch.casos.each do | caso |
-        %li= link_to caso.name, caso.link, :target => "_blank"
+      });
+    });
