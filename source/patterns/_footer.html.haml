@@ -1,25 +1,19 @@
+.colored-border
+  .border.bg-dspblue3
+  .border.bg-dspyellow
+  .border.bg-dspred
+  .border.bg-dspgreen
 %footer.footer{:role => "contentinfo"}
-  .footer-logo
-    = image_tag "logos/logo__san-pedro-blanco.png", style: 'margin-right: 2em; margin-left: 2em;', alt: "San Pedro Logo"
-    = image_tag "logos/logo__govlab-blanco.png", style: 'margin-right: 2em; margin-left: 2em;', alt: "Govlab Logo"
-    = image_tag "logos/logo__codeandomexico-blanco.png", style: 'margin-right: 2em; margin-left: 2em;', alt: "Codeando México Logo"
-  .footer-links
-    %ul
-      %li
-        %h3 Contenido
-      %li
-        %a{:href => "contact.html"} Contacto
-    %ul
-      %li
-        %h3 Síguenos
-      %li
-        %a{:href => "javascript:void(0)"} Facebook
-      %li
-        %a{:href => "javascript:void(0)"} Twitter
-    %ul
-      %li
-        %h3 Legal
-      %li
-        %a{:href => "javascript:void(0)"} Términos y Condiciones
-      %li
-        %a{:href => "javascript:void(0)"} Aviso de Privacidad
+  .container
+    %nav.footer-links
+      %ul.cf
+        %li= link_to "Contacto", "contact.html"
+        %li= link_to "Aviso de Privacidad", "privacidad.html"
+        %li.last &iexcl;S&iacute;guenos!
+    .footer-logos
+      %a{:href => "http://thegovlab.org", :target => "_blank"}
+        = image_tag "logos/logo__govlab-blanco.png", style: 'width: 150px', alt: "Govlab Logo"
+      %a{:href => "http://sanpedro.gob.mx", :target => "_blank"}
+        = image_tag "logos/logo__san-pedro-blanco.png", style: 'width: 90px', alt: "San Pedro Logo"
+      %a{:href => "https://codeandomexico.org", :target => "_blank"}
+        = image_tag "logos/logo__codeandomexico-blanco.png", style: 'width: 220px', alt: "Codeando México Logo"
