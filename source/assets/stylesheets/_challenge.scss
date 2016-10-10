@@ -189,23 +189,42 @@
 
 .elteam{
   padding:4% 0;
-  h1.title{
+  .subtitle{
     text-align: center;
-    font-size: 5em;
+    font-size: 22px;
     width: 60%;
     margin: 0 auto;
     margin-bottom: 40px;
-    text-transform: uppercase;
-    color: #2e3c40;
+  }
+  h1.title{
+    text-align: center;
+    font-size: 90px;
+    color: $dsp__blue3;
+    margin-bottom: 0;
+  }
+  p.name{
+    color: $dsp__blue3;
+    font-size: 28px;
+    text-align: center;
+    margin-top: 30px;
   }
   .grid-photos{
     @include outer-container;
     .member{
       @include span-columns(4);
       @include omega(3n);
+      cursor: pointer;
       margin-bottom: 40px;
       position: relative;
-      cursor: pointer;
+      .imagen{
+        width: 190px;
+        height: 190px;
+        margin: 0 auto;
+        overflow: hidden;
+        border-radius: 50%;
+        background-size: cover;
+        background-position: center;
+      }
       &:hover .overlay-data{
         opacity: 1;
       }

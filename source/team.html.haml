@@ -4,12 +4,24 @@ title: El Equipo
 
 .elteam
 	%header
-		%h1.title El equipo <br> San Pedro Abierto
+		.container
+			%h1.title.lspartan Equipo
+			%p.subtitle Conoce y únete al equipo que está impulsando este proyecto.
 	.grid-photos
 		- i = -1
 		- data.team.each do | member | i = i+1
 			.member{:rel => i}
-				%img{:src => "assets/images/equipo/#{member.image}", :alt => member.name}/
-				.overlay-data
-					%a.name{:href => "#"}= member.name
+				.imagen
+					%img{:src => "assets/images/equipo/#{member.image}", :alt => member.name}/
+				%p.name.lspartan= member.name
 	= partial "patterns/modals"
+- content_for :bottomScripts do
+	:javascript
+		$(function(){
+			$('.member .imagen').each(function(){
+				var src = $(this).find('img').attr('src');
+				console.log(src);
+				$(this).find('img').css('display', 'none');
+				$(this).css({'background-image': 'url('+src+')'});
+			});
+		});
