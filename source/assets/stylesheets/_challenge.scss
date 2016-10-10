@@ -133,6 +133,10 @@
     width: 150px;
     height: 50px;
   }
+  p.msg.success{
+    color: $dsp__green;
+    text-align: center;
+  }
 }
 .historia.light-gray-background{
   background-color: #fafafa;

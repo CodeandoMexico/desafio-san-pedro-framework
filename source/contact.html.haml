@@ -5,11 +5,28 @@ title: Cont&aacute;ctanos
 .contactus__content.challenge__content
 	.container
 		%h1 Cont&aacute;ctanos
-
+		%p.msg.success.hidden Muchas gracias por contactarnos. En breve nos pondremos en contacto con usted.
 		%section.form
-			%form.contact{:action => "#"}
+			%form.contact{:action => "http://hrincon.mx/spmail/process.php", :method => "post"}
 				%input#name{:type => "text", :name => "name", :placeholder => "Nombre*"}/
 				%input#organization{:type => "text", :name => "organization", :placeholder => "Organización" }/
 				%input#email{:type => "email", :name => "email", :placeholder => "Correo electrónico*"}/
-				%textarea#msg{:name => "msg", :placeholder => "Mensaje*"}
+				%textarea#msg{:name => "message", :placeholder => "Mensaje*"}
 				%input.submit.btn{:type => "submit", :value => "Enviar"}/
+- content_for :bottomScripts do
+	:javascript 
+		$(function(){
+			$('form.contact').on('submit', function(e){
+				e.preventDefault();
+				$.post('http://hrincon.mx/spmail/process.php', $(this).serialize(), function(res){
+					console.log(res);
+					if(res.success){
+						$('html, body').animate({ scrollTop: 0 }, 'fast');
+						$('.msg.success').slideDown();
+						$('form.contact')[0].reset();
+					}
+				}, 'json').fail(function(){
+					alert('Por favor intente más tarde.');
+				});
+			});
+		});
