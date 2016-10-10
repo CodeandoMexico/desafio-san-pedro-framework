@@ -21,3 +21,13 @@
 	margin: 0 auto;
 	display: block;
 }
+#clock{
+	font-size: 50px;
+	color: #888;
+	text-align: center;
+	span{
+		color: $dsp__blue;
+		font-weight: 600;
+		font-size: 70px;
+	}
+}

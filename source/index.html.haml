@@ -71,10 +71,23 @@ title: Desafío San Pedro
 .multiplePointerContainer__pointer.fitness-content
   .title
     %h1.yellow-text-color Desaf&iacute;os
-  = partial "patterns/flexboxes"
+  / = partial "patterns/flexboxes"
+  #clock
 
 -# Sección: Ayúdanos a hacer historia
 .multiplePointerContainer__pointer.light-gray-background.historia
   .title
     %h1.red-text-color Ayúdanos a hacer historia
   = partial "patterns/flexboxes-no-background"
+- content_for :bottomScripts do
+  = javascript_include_tag "jquery.countdown.min"
+  :javascript
+    $(function(){
+      $('#clock').countdown('2016/10/10', function(event) {
+        var $this = $(this).html(event.strftime(''
+          + '<span>%d</span> día '
+          + '<span>%H</span> horas '
+          + '<span>%M</span> minutos '
+          + '<span>%S</span> segs'));
+      });
+    });
