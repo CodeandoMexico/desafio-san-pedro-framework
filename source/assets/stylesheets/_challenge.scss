@@ -3,11 +3,11 @@
   .container{
     @include outer-container;
   }
-  .image{
-    @include span-columns(2);
-  }
   .row.header{
     @include row();
+  }
+  .image{
+    @include span-columns(2);
   }
   .title{
     @include span-columns(10);
