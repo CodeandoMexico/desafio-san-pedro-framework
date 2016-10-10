@@ -137,18 +137,18 @@
       margin-bottom: 60px;
       .svg{
         float: left;
+        display: block;
       }
       p{
-        float: right;
+        float: left;
+        width: 80%;
+        margin-left: 20px;
       }
     }
   }
   .title{
     font-size: 45px;
     color: $dsp__main;
-  }
-  .svg{
-    display: inline-block;
   }
 }
 .desafios_list_content{
