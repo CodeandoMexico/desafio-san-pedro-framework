@@ -102,9 +102,18 @@
 }
 
 .contactus__content {
-  @extend .main__content;
+  h1{
+    font-size: 80px;
+    color: $dsp__blue3;
+    text-align: center;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+
   .form{
     padding: 4% 0;
+    width: 60%;
+    margin: 0 auto;
   }
   input, textarea{
     box-shadow: none;

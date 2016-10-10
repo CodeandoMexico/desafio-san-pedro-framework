@@ -1,13 +1,31 @@
 $base-margin: 40px;
 
 .faq__content {
-    @extend .main__content;
-
-    .header {
-      color: white;
-      background-color: $dsp__red;
-    }
-    section .section__title.section__title{
-    	color: $dsp__red;
-    }
+	margin: 6% auto;
+	.container{
+		@include outer-container;
+	}
+	h1{
+		font-size: 70px;
+		color: $dsp__blue3;
+		text-align: center;
+		margin-bottom: 20px;
+	}
+	.header {
+		color: white;
+		background-color: $dsp__red;
+	}
+	section .section__title.section__title{
+		color: $dsp__red;
+		font-size: 30px;
+		margin: 40px 0 20px;
+	}
+	p{
+		font-size: 18px;
+		line-height: 160%;
+	}
+	.faq{
+		width: 80%;
+		margin: 0 auto;
+	}
 }

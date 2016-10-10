@@ -2,14 +2,14 @@
 title: Cont&aacute;ctanos
 ---
 
-.contactus__content
-	.header
-		.title Cont&aacute;ctanos
+.contactus__content.challenge__content
+	.container
+		%h1 Cont&aacute;ctanos
 
-	%section.form
-		%form.contact{:action => "#"}
-			%input#name{:type => "text", :name => "name", :placeholder => "Nombre*"}/
-			%input#organization{:type => "text", :name => "organization", :placeholder => "Organización" }/
-			%input#email{:type => "email", :name => "email", :placeholder => "Correo electrónico*"}/
-			%textarea#msg{:name => "msg", :placeholder => "Mensaje*"}
-			%input.submit.btn{:type => "submit", :value => "Enviar"}/
+		%section.form
+			%form.contact{:action => "#"}
+				%input#name{:type => "text", :name => "name", :placeholder => "Nombre*"}/
+				%input#organization{:type => "text", :name => "organization", :placeholder => "Organización" }/
+				%input#email{:type => "email", :name => "email", :placeholder => "Correo electrónico*"}/
+				%textarea#msg{:name => "msg", :placeholder => "Mensaje*"}
+				%input.submit.btn{:type => "submit", :value => "Enviar"}/

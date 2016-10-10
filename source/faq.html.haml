@@ -3,11 +3,10 @@ title: Preguntas frecuentes
 ---
 
 .faq__content
-  .header
-    .title Preguntas frecuentes
-
-  -# Question section starts here
-  - data.faqs.each do | faq |
-    %section
-      .section__title= faq.question
-      %p= faq.answer
+  .container
+    %h1.title Preguntas frecuentes
+    .faq
+      - data.faqs.each do | faq |
+        %section
+          .section__title= faq.question
+          %p= faq.answer
