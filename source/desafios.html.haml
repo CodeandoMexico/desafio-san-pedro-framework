@@ -3,21 +3,18 @@ title: Desaf&iacute;os
 ---
 
 .desafios_list_content
-	.header
-		.title Desaf&iacute;os
 	.container
-		.right
-			%h1 Desaf&iacute;os
-			%p Ayúdanos a transformar la forma en la que municipio y comunidad colaboran para resolver los problemas que nos interesan a todos y todas. &Uacute;nete y ayúdanos a hacer historia.
-
-			%ul.challenge-list
-				- i = 0
-				- data.challenges.each do | challenge | i = i+1
-					%li
-						.row
-							.left
-								%a.solid.blue{:href => "#"}
-							.right
-								= link_to challenge.area, "desafio" + i.to_s + ".html", :class => "area"
-								.clear
-								= link_to challenge.question, "desafio" + i.to_s + ".html", :class => "title"
+		%h1 Desaf&iacute;os
+		%p.tac Ayúdanos a transformar la forma en la que municipio y comunidad colaboran para resolver los problemas que nos interesan a todos y todas. Únete y ayúdanos a hacer historia.
+		.listado
+			- for i in 1..6
+				.reto
+					.image
+						%img{:src => "assets/images/city.png", :alt => "City"}/
+					.content
+						%p.title= data.challenges[0].question
+						%p.area.red= data.challenges[0].area
+						%p.desc Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt ad, hic dolorem laudantium quidem velit fugit facere mollitia excepturi totam doloremque fugiat iste aperiam corporis. Delectus, voluptas reprehenderit expedita molestias.
+						%a.go-to.lspartan{:href => "#"}
+							Ir al desaf&iacute;o 
+							%span.ico.arrow

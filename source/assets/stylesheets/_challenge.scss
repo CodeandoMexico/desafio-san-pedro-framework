@@ -129,73 +129,61 @@
   background-color: #fafafa;
 }
 .desafios_list_content{
-  .header {
-    font-weight: 300;
-    margin-bottom: $base-margin;
-    padding-top: $base-margin * 3;
-    padding-bottom: $base-margin * 3;
-    border-bottom: 1px $light-gray solid;
-    background-color: $dsp__blue;
-
-    .title {
-      text-align: center;
-      font-size: 4em;
-      color: white;
-    }
-
-    .subtitle {
-      text-align: center;
-      font-size: 2em;
-      color: white;
-    }
-  }
+  margin: 6%;
   h1{
-    font-size: 3em;
+    font-size: 90px;
+    color: $dsp__blue3;
+    text-align: center;
+    margin-bottom: 20px;
   }
-  p{
-    font-size: 18px;
+  p.tac{
+    font-size: 22px;
+    width: 90%;
+    margin: 0 auto;
   }
-  .container{
-    @include outer-container;
-    margin: 5% auto;
-    > .right{
-      @include span-columns(8);
-      @include shift(2);
+  .listado{margin-top: 8%; }
+  .container{@include outer-container; }
+  .reto{
+    margin-bottom: 80px;
+    @include row();
+    .image{@include span-columns(3); }
+    .content{@include span-columns(9); }
+    .title{
+      color: $dsp__blue3;
+      font-family: 'League Spartan', sans-serif;
+      font-size: 24px;
+      margin-bottom: 0;
     }
-  }
-  .challenge-list{
-    margin-top: 60px;
-    li{
-      margin-bottom: 60px;
-      .area{
-        color: #777;
-        text-transform: uppercase;
-        letter-spacing: .3em;
-      }
-      .title{
-        color: #4a4a4a;
-        font-size: 18px;
-        margin-top: 5px;
-      }
-      .left .solid{
-        display: block;
-        width: 180px;
-        height: 120px;
-      }
-      .row{
-        display: table;
-      }
-      .left, .right{
-        display: table-cell;
-        vertical-align: top;
-      }
-      .right{
-        padding-left: 30px;
+    .area{
+      text-transform: uppercase;
+      color: #b2b2b2;
+      letter-spacing: .3em;
+      font-size: 18px;
+      &::before{
+        content: '';
+        width: 10px;
+        height: 10px;
+        background-color: $dsp__red;
+        display: inline-block;
+        border-radius: 50%;
+        margin-right: 10px;
       }
     }
-  }
-  .challenge-list .solid.blue{
-    background-color: $dsp__blue;
+    .desc{
+      font-size: 18px;
+      line-height: 140%;
+    }
+    .go-to{
+      font-size: 22px;
+      color: $dsp__main;
+      .ico.arrow{
+        background: url(../images/icons/flecha.svg) no-repeat;
+        width: 9px;
+        height: 15px;
+        background-size: 10px;
+        display: inline-block;
+      }
+    }
   }
 }
 
