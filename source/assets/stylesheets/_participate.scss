@@ -1,7 +1,7 @@
 $base-margin: 40px;
 
 .participate__content {
-	@extend .main__content;
+	// @extend .main__content;
 	.header {
 		color: white;
 		background-color: $dsp__blue2;
@@ -9,8 +9,11 @@ $base-margin: 40px;
 	> section{
 		margin: 8% auto;
 	}
-	.row{
+	&.container{
 		@include outer-container;
+	}
+	.row{
+		@include row();
 		margin: 4% 0;
 	}
 	.half{
@@ -47,6 +50,7 @@ $base-margin: 40px;
 	}
 	.third.half{
 		position: relative;
+		@include span-columns(6);
 		&::before{
 			content: '';
 			position: absolute;
