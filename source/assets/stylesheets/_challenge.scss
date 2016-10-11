@@ -100,7 +100,40 @@
     }
   }
 }
+.privacidad__content{
+  margin: 6% auto;
+  .container{
+    @include outer-container;
+  }
+  .smaller{
+    width: 80%;
+    margin: 0 auto;
+  }
+  h2{
+    font-size: 30px;
+    color: $dsp__main;
+    margin-top: 40px;
+  }
+  h3{
+    font-size: 20px;
+    font-weight: 300;
+    color: ligthen($dsp__main, 20%);
+    margin-top: 30px;
+  }
+  ul{
+    list-style-type: disc;
+    list-style-position: inside;
 
+  }
+  h1{
+    font-size: 80px;
+    color: $dsp__blue3;
+    text-align: center;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  
+}
 .contactus__content {
   h1{
     font-size: 80px;
