@@ -10,6 +10,36 @@
     font-style: normal;
 
 }
+@font-face {
+    font-family: 'Metropolis';
+    font-weight: bold;
+    src: url('../fonts/MetropolisSemiBold.eot');
+    src: url('../fonts/MetropolisSemiBold.eot') format('embedded-opentype'),
+         url('../fonts/MetropolisSemiBold.woff2') format('woff2'),
+         url('../fonts/MetropolisSemiBold.woff') format('woff'),
+         url('../fonts/MetropolisSemiBold.ttf') format('truetype'),
+         url('../fonts/MetropolisSemiBold.svg#MetropolisSemiBold') format('svg');
+}
+@font-face {
+    font-family: 'Metropolis';
+    src: url('../fonts/MetropolisRegular.eot');
+    src: url('../fonts/MetropolisRegular.eot') format('embedded-opentype'),
+         url('../fonts/MetropolisRegular.woff2') format('woff2'),
+         url('../fonts/MetropolisRegular.woff') format('woff'),
+         url('../fonts/MetropolisRegular.ttf') format('truetype'),
+         url('../fonts/MetropolisRegular.svg#MetropolisRegular') format('svg');
+}
+@font-face {
+    font-family: 'Metropolis';
+    font-weight: 300;
+    src: url('../fonts/MetropolisLight.eot');
+    src: url('../fonts/MetropolisLight.eot') format('embedded-opentype'),
+         url('../fonts/MetropolisLight.woff2') format('woff2'),
+         url('../fonts/MetropolisLight.woff') format('woff'),
+         url('../fonts/MetropolisLight.ttf') format('truetype'),
+         url('../fonts/MetropolisLight.svg#MetropolisLight') format('svg');
+}
+
 
 .lspartan{
 	font-family: 'League Spartan', sans-serif;
