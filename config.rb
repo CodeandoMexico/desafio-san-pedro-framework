@@ -20,6 +20,11 @@ configure :build do
   activate :relative_assets
 end
 
+data.challenges.each do |c|
+  id = c.id
+  proxy "/desafios/desafio-#{id}.html", "/desafioview.html", :locals => {:ch => c}, :ignore => true
+end
+
 activate :deploy do |deploy|
   deploy.build_before = true
   deploy.deploy_method = :git

@@ -7,18 +7,12 @@
         %li.nav-link
           %a{:href => "/"} Inicio
         %li#js-navigation-more.nav-link.more
-          %a{:href => "desafios.html"} Desafíos
-          -# Listado de desafíos
+          = link_to "Desafíos", "desafios.html"
           %ul.submenu
-            %li
-              = link_to "Comunidad", "desafio1.html"
-            %li
-              = link_to "Eficiencia Gubernamental", "desafio2.html"
-        %li.nav-link
-          %a{:href => "participate.html"} Bases de participación
-        %li.nav-link
-          %a{:href => "team.html"} El equipo
-        %li.nav-link
-          %a{:href => "faq.html"} Preguntas Frecuentes
-        %li.nav-link
-          %a{:href => "contact.html"} Contacto
+            - data.challenges.each do | ch | 
+              %li
+                = link_to ch.area, "desafios/desafio-#{ch.id}.html"
+        %li.nav-link= link_to "Bases de participación", "participate.html"
+        %li.nav-link= link_to "El equipo", "team.html"
+        %li.nav-link= link_to "Preguntas Frecuentes", "faq.html"
+        %li.nav-link= link_to "Contacto", "contact.html"

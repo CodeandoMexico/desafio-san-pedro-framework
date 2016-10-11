@@ -1,0 +1,79 @@
+---
+title: Desaf&iacute;o
+---
+.challenge__content
+  %section.intro
+    .container
+      .row.header
+        .image
+          %img{:src => "/assets/images/city.png", :alt => ch.question}/
+        .title
+          %p.desafio.lspartan Desaf&iacute;o: 
+          %h1.titulo.lspartan= ch.question
+          %p.area= ch.area
+      = link_to "&iexcl;M&aacute;ndanos tu idea!", "form.html", :class => "btn call-to-action"
+      %p= ch.intro
+  - if ch.opentopic
+    %section.fill-content
+      .container
+        = ch.opentopic
+  - if !ch.nobanner
+    %section.row.blocks
+      .block.bg-dspblue2.open{:rel => 0}
+        %h2 Contexto
+      .block.bg-dspgreen{:rel => 1}
+        %h2 Datos abiertos
+      .block.bg-dspred{:rel => 2}
+        %h2 Casos ejemplares
+  - if !ch.opentopic
+    %section.fill-content
+      .container.contexto.active{:rel => 0}
+        %h2 Contexto
+        = ch.context
+        .clear
+        - if ch.criteria
+          .criteria
+            %p.title
+              %strong Criterios importantes a tomar en cuenta en la propuesta de una soluci&oacute;n:
+            .clear
+            %ul
+              - ch.criteria.each do | criterion |
+                %li= criterion
+            .clear{:style => "height: 30px;"}
+            %p
+              %strong Recuerda:
+              = ch.remember
+      .container.datos.hidden{:rel => 1}
+        %h2 Datos abiertos
+        %p
+          %strong Aquí tienes acceso a datos del municipio que podrían fortalecer tu propuesta:
+
+        %ul
+          - ch.datos.each do | dato |
+            %li= link_to dato.name, dato.link, :target => "_blank"
+      .container.ejemplos.hidden{:rel => 2}
+        %h2 Casos ejemplares
+        %p
+          %strong Estos son unos de los casos que hemos estado estudiando como ejemplo de posibles soluciones:
+
+        %ul
+          - ch.casos.each do | caso |
+            %li= link_to caso.name, caso.link, :target => "_blank"
+
+  = link_to "&iexcl;M&aacute;ndanos tu idea!", "form.html", :class => "btn call-to-action"
+- content_for :bottomScripts do
+  :javascript
+    $(function(){
+      $('.block').click(function(){
+        var rel = $(this).attr('rel');
+        if($(this).hasClass('open')){
+          return false;
+        }
+        $('.block.open').removeClass('open');
+        $(this).addClass('open');
+        $('.fill-content .container.active').removeClass('active').fadeOut(function(){
+          $('.fill-content .container[rel='+rel+']').fadeIn().addClass('active').removeClass('hidden');
+        });
+
+      });
+    });

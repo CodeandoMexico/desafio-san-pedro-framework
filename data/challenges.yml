@@ -1,4 +1,5 @@
 -
+  id: 1
   area: Comunidad
   question: ¿Cómo incrementar el uso y aprovechamiento de los espacios públicos en el Municipio?
   intro: "Los espacios públicos son el corazón de nuestra vida democrática. En ellos nos encontramos con nuestra comunidad, intercambiamos ideas y experiencias, y aprendemos de nuestros distintos puntos de vista. <br><br> Queremos diseñar contigo los roles, actividades y características que deberían de tener nuestros espacios públicos para fomentar una mayor convivencia y promover actividades que llenen de vida, arte y deporte a nuestra comunidad."
@@ -31,6 +32,7 @@
       name: "More Awesome Now: Vancouver Alley Makeovers"
       link: "https://nextcity.org/daily/entry/vancouver-alley-makeovers"
 -
+  id: 2
   area: Eficiencia Gubernamental
   question: ¿Cómo rediseñarías los trámites y servicios de tu municipio?
   intro: "La prestación de servicios públicos a la ciudadanía como alumbrado, seguridad, residuos, calles y vialidades, parques y jardines por nombrar a algunos, es la tarea más importante de la mayoría de los departamentos del Municipio.<br><br> ¡En nuestro municipio queremos co-crear contigo los nuevos trámites y servicios!<br><br> Todos y todas esperamos que los servicios sean más transparentes, accesibles y receptivos. Sin embargo, aunque muchos gobiernos han hecho esfuerzos como ventanillas únicas, centros de llamadas centralizados o rediseñado sus portales en línea, éstos no han resultado en un cambio significativo, siguen siendo lentos de acuerdo a la expectativa de la comunidad y a menudo es necesario hablar con varias personas y distintos departamentos para encontrar la respuesta a una pregunta. <br><br> A continuación te presentamos el contexto de San Pedro, ponemos a tu disposición datos que pudieran ser relevantes para formular mejores propuestas y te brindamos algunos de los ejemplos que hemos estado considerando como posibles soluciones. "
@@ -79,3 +81,95 @@
     - 
       name: "NYC 311 Mobile App"
       link: "http://www.govtech.com/pcio/Beyond-CRM-and-311-Strategies-for.html"
+-
+  id: 3
+  area: Movilidad
+  question: ¿Cómo re-plantearías la movilidad del municipio?
+  intro: "América Latina es la región más urbanizada del planeta; sus ciudades, en este momento, están atravesando un período de crecimiento sin precedente, donde el ritmo de urbanización pasó del 50% en 1950 al 80% en 2014, se espera llegar a un 86% de urbanización en el 2050.. Con este fenómeno se producen ciertas consecuencias relevantes sobre todo en materia de planeación urbana y dentro de esta un tema central: la movilidad. Cómo se desplaza la gente  en la ciudad.<br><br> ¡En nuestro municipio queremos co-crear contigo soluciones a este problema tan desafiante al que nos enfrentemos!<br><br> A continuación te presentamos el contexto de San Pedro, ponemos a tu disposición datos que pudieran ser relevantes para formular mejores propuestas y te brindamos algunos de los ejemplos que hemos estado considerando como posibles soluciones."
+  context: "<p>El municipio de San Pedro Garza García perteneciente a la zona metropolitana de Monterrey es un municipio atractor de población flotante. El número de viajes atraídos al municipio es 1.91 veces el que se produce en el mismo, y en total se registran  900,00 viajes diarios. En el área metropolitana el 48% de los viajes se hacen en medios individuales mientras que en el municipio aumenta a 58%. <br><br> A esto se le suma la poca utilización del transporte público así como de medio alternativos de movilidad como la bicicleta o la movilidad peatonal. Sólo el 2% de los viajes se realizan en medios no motorizados. <br><br> El problema de la congestión vial en San Pedro no puede seguir siendo abordando exclusivamente a través de la óptica de la inversión en infraestructura vial para el automóvil particular. Por ello, es indispensable analizar la información disponible, así como generar datos adicionales y pensar en nuevas estrategias, sostenibles e inteligentes que mitiguen la problemática en la ciudad.<br><br> Es importante considerar a la movilidad como un fenómeno transversal que se conecta con muchas otras cuestiones de la ciudad, como lo son el desarrollo urbano, los espacios públicos, las preferencias culturales y la seguridad, entre otras.</p>"
+  criteria:
+    - "<strong>Congestión vial.</strong> El mayor problema de congestionamiento vial en el  municipio de San Pedro ocurre entre 7 - 8:30am,  1 - 3pm y 5 - 8pm y se origina en los siguientes accesos de la ciudad de Monterrey: a) túnel de la Loma Larga; b) Gonzalitos y c) Morones Prieto; la cual repercute en:  a) Vasconcelos y Alfonso Reyes; b) Lázaro Cárdenas y Real San Agustín;  c)Ricardo Margáin y Gómez Morín; y, d) Morones Prieto. Es importante considerar que muchos de los automóviles, provienen de otros municipios del área metropolitana."
+    - "<strong>Transporte Escolar.</strong> El poco uso del transporte escolar, la ausencia de otros tipos de movilidad y la falta de estrategias y coordinación en el tema, causa saturación en la mayoría de las avenidas del municipio a la hora de entrada y salida de clases (entre 7 - 10am y 12 - 3pm). Es importante considerar que el transporte escolar no incluye sólo el motorizado, hay distintos medios por los cuales las y los alumnos pueden llegar a sus escuelas."
+    - "<strong>Cultura de respeto al peatón.</strong> Debido a la falta de cultura peatonal en el municipio así como a la poca  sensibilización sobre el cuidado y el respeto a los mismos. Las y los peatones en el municipio representan una población muy vulnerada. Prácticas como invasión de cebras peatonales, estacionamiento en e invasión de banquetas y de rampas peatonales son prácticas recurrentes en el municipio."
+
+  remember: no es necesario que propongas una solución que abarque todos los criterios arriba citados.
+  datos:
+    -
+      name: Reportes de congestionamiento vial del 2014 al 2016
+      link:
+    -
+      name: Listado de zonas escolares
+      link:
+    -
+      name: Cantidad de accidentes en la calle Vasconcelos del 2014 al 2016
+      link:
+    -
+      name: Los 20 cruceros con más accidentes del 2014 al 2016
+      link:
+  casos:
+    - 
+      name: "Using Technology to Tackle Corruption in Urban Development"
+      link: "http://mayorschallenge.bloomberg.org/ideas/guadalajara/"
+    - 
+      name: IDB supports improved e-government services in Uruguay
+      link: "http://www.iadb.org/en/news/news-releases/2011-10-14/uruguay-improved-e-government-services,9607.html"
+    - 
+      name: "Implementing a citizen-centric approach to delivering government services"
+      link: "http://www.mckinsey.com/industries/public-sector/our-insights/implementing-a-citizen-centric-approach-to-delivering-government-services"
+    - 
+      name: "NYC 311 Mobile App"
+      link: "http://www.govtech.com/pcio/Beyond-CRM-and-311-Strategies-for.html"
+-
+  id: 4
+  area: Medio Ambiente
+  question: ¿Qué podemos hacer como municipio para promover y procurar el cuidado al medio ambiente?
+  intro: "El cuidado del medio ambiente va más allá de plantar un árbol o tener un parque urbanizado. Para lograr verdaderamente un impacto por ejemplo, necesitamos mejores prácticas en la compra, manejo y disposición de productos o en la otorgación de servicios, como también en construir y realizar actividades como comunidad en las del entorno. <br><br> El cuidado del medio ambiente es una preocupación tanto global como local, y nosotros queremos desarrollar contigo proyectos que demuestren cómo es que desde lo comunitario y lo individual, se puede hacer la diferencia. <br><br> Las nuevas tecnologías de comunicación ofrecen oportunidades de participación y colaboración únicas para este tema. Por ejemplo, gracias al nuevo concepto de ciencia ciudadana y a un conjunto de herramientas innovadoras, las y los ciudadanos pueden contribuir con su tiempo y talentos para avanzar temas de ciencia y tecnología. Con acciones tan sencillas como tomar una foto o clasificar una imagen, todos y todas podemos proporcionar información que de otro modo no estaría disponible debido a limitaciones de tiempo, geográficas o de recursos. Lo importante es que en agregado, cada pequeña acción contribuye a generar grandes logros. <br><br> Ya sea haciendo preguntas, observaciones, realizando de experimentos, recopilando datos,  desarrollando tecnologías de bajo costo y de código abierto o diseñando estrategias, cualquier proyecto es bienvenido."
+  context: "<p><strong>Algunas caracterizaciones importantes en materia de Medio Ambiente en San Pedro:</strong></p><ol><li>El 98.61% de las viviendas cuenta con servicio sanitario y el 89.04% cuenta con servicio de recolección de basura. De estos últimos, sólo el 23.26% separa su basura y el 87.53% no reutiliza sus residuos.</li><li> En el Plan de Desarrollo Urbano Municipal de San Pedro Garza García, 2030 (vigente) se calculan un total de 122,144 vehículos en el municipio. En el área metropolitana de Monterrey el 48% de los viajes se hacen en medios individuales mientras que en el municipio de San Pedro Garza García aumenta a un 58%.</li></ol><br><br><p><strong> Temas relevantes a nivel municipal en materia de Medio Ambiente:</strong></p><ul> <li>Calidad del aire </li> <li>Conservación de agua urbana </li> <li>Eficiencia en el uso y generación de la energía (edificios, alumbrado público) </li> <li>Transporte público local </li> <li>Recursos verdes y biodiversidad </li> <li>Residuos sólidos y reciclaje </li></ul><br><br><p><strong> Lo importante es formular soluciones locales que se puedan implementar en conjunto con Municipio. Por ejemplo, algunos temas que están fuera del alcance del municipio son:</strong></p><ol> <li>Automóviles provenientes de otros municipios del área metropolitana de Monterrey. </li> <li>Industrias y pedreras ubicadas en otros municipios del área metropolitana.</li> <li>Transporte público Estatal.</li></ol><br><br><p><strong>Algunos proyectos que ya se están realizando en el municipio en materia de Medio Ambiente:</strong></p><ul> <li>Detectives Ambientales </li><li>Huertos Urbanos: escolares, comunitarios </li> <li>Arborización </li> <li>Eliminación de cableado en las calles en desuso </li> <li>Energía Eólica </li> <li>Luminarias ahorradoras </li> <li>Pago de predial mediante residuos aprovechables o reciclables </li> <li>Regeneración, habilitación de áreas verdes </li> <li>Reciclado de pavimento </li> <li>Maceteros ornamentales en puntos estratégicos: Mariposas, bicicletas, hongos, caracoles, veleros </li></ul>"
+  criteria:
+  remember:
+  datos:
+    -
+      name: Resultados SIMA del Monitoreo del Aire en San Pedro Garza García, N.L
+      link:
+    -
+      name: Atlas de riesgo del municipio
+      link:
+    -
+      name: Zonas urbanizadas y no urbanizadas
+      link:
+    -
+      name: Zonas inundables
+      link:
+    -
+      name: Información sobre recolección de basura
+      link:
+    -
+      name: Información sobre Medio Ambiente en Planes de Desarrollo
+      link:
+  casos:
+    -
+      name: "Organic Waste Recycling"
+      link: "http://smartcity.bcn.cat/en/organic-waste-recycling.html"
+    -
+      name: "Smart Drive Challenge"
+      link: "http://www.metrovancouver.org/services/air-quality/projects-initiatives/smart-drive-challenge/Pages/default.aspx"
+    -
+      name: "Community Trees"
+      link: "http://www.austintexas.gov/department/community-trees"
+    -
+      name: "In-depth Report: Environmental Citizen Scienc"
+      link: "http://ec.europa.eu/environment/integration/research/newsalert/pdf/IR9_en.pdf"
+    -
+      name: "Open Innovation for a Sustainable Environmen"
+      link: "https://www.ideaconnection.com/open-innovation-success/Open-Innovation-for-a-Sustainable-Environment-00600.html"
+-
+  id: 5
+  area: Tema Abierto
+  question: ¿Te interesaría resolver algún otro problema que no se relaciona con los temas de los desafíos que se lanzaron?
+  opentopic: "<p>Nos interesa escucharte, saber qué te preocupa y conocer tus propuestas para resolver esa problemática. Te invitamos a que si consideras que existe algún otro tema prioritario para el municipio que no está enlistado, lo presentes junto con tu idea para resolverlo. <br><br> Es importante que analices muy bien el problema que vas a presentar. Re recomendamos que tomes en cuenta elementos como:</p> <ul> <li><strong>Urgencia</strong> ¿qué tan urgente es resolver este problema para el municipio? </li> <li><strong>Impacto</strong> ¿qué tanto impacto positivo generaría que esta problemática se resuelva?</li> <li><strong>Implementación</strong> ¿puede el municipio implementar una solución a esta problemática?</li> <li><strong>Beneficio</strong> ¿quiénes serían las y los beneficiados al resolver esta problemática? </li> </ul> <br><br><p> Si la problemática, de alguna forma, está relacionada con alguno de los temas de los desafíos que se lanzaron, te sugerimos que presentes tu idea en alguno de los desafíos ya establecidos. Estamos esperando problemáticas distintas, que desde nuestro enfoque no pudimos detectar.<br><br> Por último, es importante que el problema que presentes sea competencia del municipio, para que en realidad el mismo, pueda apoyar en su implementación.</p>"
+  nobanner: true
+  context:
+  criteria:
+  remember:
+  datos:
+  casos:
