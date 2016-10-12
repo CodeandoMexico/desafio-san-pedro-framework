@@ -408,6 +408,27 @@
       }
     }
   }
+  @media(max-width: 550px){
+    h1.title{
+      font-size: 3em;
+      margin: 20px 0;
+    }
+    p.subtitle.subtitle{
+      font-size: 1em;
+      width: 90%;
+    }
+    h2.name{
+      font-size: 1.7em;
+    }
+    .grid-photos{
+      .member{
+        @include span-columns(12);
+        &.center{
+          @include shift(0);
+        }
+      }
+    }
+  }
 }
 .bg-dspred{background-color: $dsp__red; }
 .bg-dspblue{background-color: $dsp__blue; }
