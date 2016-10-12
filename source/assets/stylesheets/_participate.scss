@@ -185,6 +185,7 @@ $base-margin: 40px;
 	margin: 6% auto;
 	.container{
 		@include outer-container;
+		@include pad();
 	}	
 	h1{
 		font-size: 90px;
@@ -229,5 +230,14 @@ $base-margin: 40px;
 	small{
 		margin-top: 30px;
 		display: block;
+	}
+	@media(max-width: 550px){
+		h1{
+			font-size: 3em;
+			margin: 20px 0;
+		}
+		p, p.subtitle.subtitle, label, li, td, th{
+			font-size: 1em;
+		}
 	}
 }
