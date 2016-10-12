@@ -164,7 +164,6 @@
     margin-bottom: 10px;
     width: 100%;
   }
-
   .form{
     padding: 4% 0;
     width: 60%;
@@ -191,6 +190,21 @@
   p.msg.success{
     color: $dsp__green;
     text-align: center;
+  }
+  @media(max-width: 768px){
+    .form{
+      width: 90%;
+    }
+  }
+  @media(max-width: 550px){
+    h1{
+      font-size: 2.8em;
+      margin: 20px 0;
+    }
+    .submit.btn{
+      float: none;
+      width: 100%;
+    }
   }
 }
 .historia.light-gray-background{
