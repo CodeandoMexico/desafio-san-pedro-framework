@@ -85,14 +85,14 @@
   area: Movilidad
   classd: yellow
   photo: city.png
-  question: ¿Cómo re-plantearías la movilidad del municipio?
+  question: ¿Cómo replantearías la movilidad del municipio?
   description: "Si te gustan los acertijos y pensar en soluciones fuera de la caja, este desafío es para ti. Coordinación, incentivos para distintas formas de movilidad y detección de factores de riesgo de accidentes son algunas de las muchas variables con las que pudiéramos lograr una diferencia. ¡Súmate a la propuesta de soluciones!"
-  intro: "América Latina es la región más urbanizada del planeta; sus ciudades, en este momento, están atravesando un período de crecimiento sin precedente, donde el ritmo de urbanización pasó del 50% en 1950 al 80% en 2014, se espera llegar a un 86% de urbanización en el 2050.. Con este fenómeno se producen ciertas consecuencias relevantes sobre todo en materia de planeación urbana y dentro de esta un tema central: la movilidad. Cómo se desplaza la gente  en la ciudad.<br><br> ¡En nuestro municipio queremos co-crear contigo soluciones a este problema tan desafiante al que nos enfrentemos!<br><br> A continuación te presentamos el contexto de San Pedro, ponemos a tu disposición datos que pudieran ser relevantes para formular mejores propuestas y te brindamos algunos de los ejemplos que hemos estado considerando como posibles soluciones."
-  context: "<p>El municipio de San Pedro Garza García perteneciente a la zona metropolitana de Monterrey es un municipio atractor de población flotante. El número de viajes atraídos al municipio es 1.91 veces el que se produce en el mismo, y en total se registran  900,00 viajes diarios. En el área metropolitana el 48% de los viajes se hacen en medios individuales mientras que en el municipio aumenta a 58%. <br><br> A esto se le suma la poca utilización del transporte público así como de medio alternativos de movilidad como la bicicleta o la movilidad peatonal. Sólo el 2% de los viajes se realizan en medios no motorizados. <br><br> El problema de la congestión vial en San Pedro no puede seguir siendo abordando exclusivamente a través de la óptica de la inversión en infraestructura vial para el automóvil particular. Por ello, es indispensable analizar la información disponible, así como generar datos adicionales y pensar en nuevas estrategias, sostenibles e inteligentes que mitiguen la problemática en la ciudad.<br><br> Es importante considerar a la movilidad como un fenómeno transversal que se conecta con muchas otras cuestiones de la ciudad, como lo son el desarrollo urbano, los espacios públicos, las preferencias culturales y la seguridad, entre otras.</p>"
+  intro: "América Latina es la región más urbanizada del planeta; sus ciudades, en este momento, están atravesando un período de crecimiento sin precedente, donde el ritmo de urbanización pasó del 50% en 1950 al 80% en 2014, y se espera llegar a un 86% de urbanización en el 2050.. Con este fenómeno se producen ciertas consecuencias relevantes sobre todo en materia de planeación urbana y dentro de esta un tema central: la movilidad. El cómo se desplaza la gente en la ciudad.<br><br> El problema de tráfico y movilidad nos afecta día tras día, y aunque estamos trabajando en las soluciones tradicionales, queremos aprovechar el talento de nuestra comunidad para buscar soluciones creativas y fuera de la caja. La complejidad del problema requiere la participación de todos los sectores: público, privado, sociedad civil y academia.<br><br> A continuación te presentamos el contexto de San Pedro, ponemos a tu disposición datos que pudieran ser relevantes para formular mejores propuestas y te brindamos algunos de los ejemplos que hemos estado considerando como posibles soluciones."
+  context: "<p>El municipio de San Pedro Garza García perteneciente a la zona metropolitana de Monterrey es un municipio atractor de población flotante. El número de viajes atraídos al municipio es el doble del que se produce en el mismo. A la fecha, en total se registran  900,00 viajes diarios. En el área metropolitana el 48% de los viajes se hacen en medios individuales mientras que en el municipio aumenta a 58% el porcentaje de viajes individuales. <br><br> A la poca utilización del transporte público se le suma la falta de medios alternativos de movilidad como la bicicleta o la movilidad peatonal. Sólo el 2% de los viajes se realizan en medios no motorizados. <br><br> Por otra parte, el problema de la congestión vial en San Pedro no puede seguir siendo abordando exclusivamente a través de la óptica de la inversión en infraestructura vial para el automóvil particular. Por ello, es indispensable analizar la información disponible, así como generar datos adicionales y pensar en nuevas estrategias, sostenibles e inteligentes que mitiguen la problemática en la ciudad y en el municipio.</p>"
   criteria:
-    - "<strong>Congestión vial.</strong> El mayor problema de congestionamiento vial en el  municipio de San Pedro ocurre entre 7 - 8:30am,  1 - 3pm y 5 - 8pm y se origina en los siguientes accesos de la ciudad de Monterrey: a) túnel de la Loma Larga; b) Gonzalitos y c) Morones Prieto; la cual repercute en:  a) Vasconcelos y Alfonso Reyes; b) Lázaro Cárdenas y Real San Agustín;  c)Ricardo Margáin y Gómez Morín; y, d) Morones Prieto. Es importante considerar que muchos de los automóviles, provienen de otros municipios del área metropolitana."
-    - "<strong>Transporte Escolar.</strong> El poco uso del transporte escolar, la ausencia de otros tipos de movilidad y la falta de estrategias y coordinación en el tema, causa saturación en la mayoría de las avenidas del municipio a la hora de entrada y salida de clases (entre 7 - 10am y 12 - 3pm). Es importante considerar que el transporte escolar no incluye sólo el motorizado, hay distintos medios por los cuales las y los alumnos pueden llegar a sus escuelas."
-    - "<strong>Cultura de respeto al peatón.</strong> Debido a la falta de cultura peatonal en el municipio así como a la poca  sensibilización sobre el cuidado y el respeto a los mismos. Las y los peatones en el municipio representan una población muy vulnerada. Prácticas como invasión de cebras peatonales, estacionamiento en e invasión de banquetas y de rampas peatonales son prácticas recurrentes en el municipio."
+    - "<strong>Congestión vial.</strong> El mayor problema de congestionamiento vial en el  municipio de San Pedro ocurre entre 7 - 8:30am,  1 - 3pm y 5 - 8pm y se origina en los siguientes accesos de la ciudad de Monterrey: <br><ul><li>Túnel de la Loma Larga; </li> <li>Gonzalitos; y,</li> <li>Morones Prieto;</li></ul> <br>La cual repercute en: <ul> <li>Vasconcelos y Alfonso Reyes; </li> <li>Lázaro Cárdenas y Real San Agustín; </li> <li>Ricardo Margáin y Gómez Morín; y, </li> <li>Morones Prieto. </li></ul><br><br> Es importante considerar que muchos de los automóviles, provienen de otros municipios del área metropolitana."
+    - "<strong>Transporte Escolar.</strong> El poco uso del transporte escolar, la ausencia de otros tipos de movilidad y la falta de estrategias y coordinación en el tema, causa saturación en la mayoría de las avenidas del municipio a la hora de entrada y salida de clases (entre 7 - 10am y 12 - 3pm)."
+    - "<strong>Cultura de respeto al peatón.</strong> Las y los peatones en el municipio representan una población muy vulnerada. Prácticas como invasión de cebras peatonales, invasión y estacionamiento en banquetas y rampas peatonales son prácticas recurrentes en el municipio."
 
   remember: no es necesario que propongas una solución que abarque todos los criterios arriba citados.
   datos:
@@ -110,17 +110,20 @@
       link:
   casos:
     - 
-      name: "Using Technology to Tackle Corruption in Urban Development"
-      link: "http://mayorschallenge.bloomberg.org/ideas/guadalajara/"
+      name: "¿En qué consiste la nueva alianza de Waze y Monterrey?"
+      link: "http://tecno.americaeconomia.com/articulos/en-que-consiste-la-nueva-alianza-de-waze-y-monterrey"
     - 
-      name: IDB supports improved e-government services in Uruguay
-      link: "http://www.iadb.org/en/news/news-releases/2011-10-14/uruguay-improved-e-government-services,9607.html"
+      name: "La contribución de los laboratorios de innovación pública ver (Estudio de caso: Lab.Rio, PENSA y Centro de Operaciones, página 34)"
+      link: "https://publications.iadb.org/bitstream/handle/11319/7874/Innovando-para-una-mejor-gestion-la-contribucion-de-los-laboratorios-de-innovacion-publica.pdf?sequence=1"
     - 
-      name: "Implementing a citizen-centric approach to delivering government services"
-      link: "http://www.mckinsey.com/industries/public-sector/our-insights/implementing-a-citizen-centric-approach-to-delivering-government-services"
+      name: "Mapatón Ciudad de México"
+      link: 
     - 
-      name: "NYC 311 Mobile App"
-      link: "http://www.govtech.com/pcio/Beyond-CRM-and-311-Strategies-for.html"
+      name: "Mapatón Xalapa"
+      link: 
+    - 
+      name: "Sistemas de Transporte Público Masivo tipo BRT (Bus Rapid Transit)"
+      link: "https://www.lincolninst.edu/pubs/2210_Sistemas-de-transporte-p%C3%BAblico-masivo-tipo-BRT--Bus-Rapid-Transit--y-desarrollo-urbano-en-Am%C3%A9rica-Latina" 
 -
   id: 4
   area: Medio Ambiente
