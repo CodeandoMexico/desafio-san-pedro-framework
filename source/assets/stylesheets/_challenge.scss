@@ -232,11 +232,16 @@
         content: '';
         width: 10px;
         height: 10px;
-        background-color: $dsp__red;
         display: inline-block;
         border-radius: 50%;
         margin-right: 10px;
       }
+      &.red::before{background-color: $dsp__red; }
+      &.yellow::before{background-color: $dsp__yellow; }
+      &.blue2::before{background-color: $dsp__blue2; }
+      &.blue::before{background-color: $dsp__blue; }
+      &.main::before{background-color: $dsp__main; }
+      &.green::before{background-color: $dsp__green; }
     }
     .desc{
       font-size: 18px;

@@ -14,7 +14,7 @@ title: Desaf&iacute;os
 						%img{:src => "assets/images/city.png", :alt => "City"}/
 					.content
 						%p.title= ch.question
-						%p.area.red= ch.area
+						%p.area{:class => ch.classd}= ch.area
 						%p.desc= ch.description
 						%a.go-to.lspartan{:href => "desafios/desafio-"+ch.id.to_s+".html"}
 							Ir al desaf&iacute;o 
