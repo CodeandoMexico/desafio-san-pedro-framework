@@ -227,7 +227,7 @@
     margin: 0 auto;
   }
   .listado{margin-top: 8%; }
-  .container{@include outer-container; }
+  .container{@include outer-container; @include pad();}
   .reto{
     margin-bottom: 80px;
     @include row();
@@ -272,6 +272,36 @@
         height: 15px;
         background-size: 10px;
         display: inline-block;
+      }
+    }
+  }
+  @media(max-width: 550px){
+    h1.lspartan{
+      font-size: 3em;
+      margin: 20px 0;
+    }
+    p.tac{
+      font-size: 0.9em;
+    }
+    .listado{
+      margin-top: 12%;
+    }
+    .reto{
+      margin-bottom: 60px;
+      .image, .content{
+        @include span-columns(12);
+      }
+      .image{
+        @include pad();
+      }
+      .content{
+        padding: 0 4%;
+        .title{
+          font-size: 1.2em;
+        }
+        .desc{
+          font-size: .8em;
+        }
       }
     }
   }
