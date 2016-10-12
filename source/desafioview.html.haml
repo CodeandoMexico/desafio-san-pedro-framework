@@ -12,6 +12,7 @@ title: Desaf&iacute;o
           %h1.titulo.lspartan= ch.question
           %p.area= ch.area
       = link_to "&iexcl;M&aacute;ndanos tu idea!", "form.html", :class => "btn call-to-action"
+      %p.limit Fecha l&iacute;mite para mandar tu idea: 14 de noviembre 2016
       %p= ch.intro
   - if ch.opentopic
     %section.fill-content
@@ -61,6 +62,7 @@ title: Desaf&iacute;o
             %li= link_to caso.name, caso.link, :target => "_blank"
   .shareaholic-canvas{"data-app"=> "share_buttons", "data-app-id" => ""}
   = link_to "&iexcl;M&aacute;ndanos tu idea!", "form.html", :class => "btn call-to-action"
+  %p.limit Fecha L&iacute;mite para mandar tu idea: 14 de noviembre 2016
 %script{:src => "http://dsms0mj1bbhn4.cloudfront.net/assets/pub/shareaholic.js", :data => {:cfasync => "false", :shr_siteid => "2357cca68f3d71b895bc25d13e44fb36"}}
 - content_for :bottomScripts do
   :javascript
