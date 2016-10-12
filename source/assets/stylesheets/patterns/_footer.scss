@@ -3,6 +3,7 @@
   padding: 60px 0;
   .container{
     @include outer-container;
+    @include pad();
   }
   .footer-links{
     li, a{

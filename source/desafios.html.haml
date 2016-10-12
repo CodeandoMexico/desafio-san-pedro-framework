@@ -11,7 +11,7 @@ title: Desaf&iacute;os
 			- data.challenges.each do | ch | i = i+1
 				.reto
 					.image
-						%img{:src => "assets/images/city.png", :alt => "City"}/
+						%img{:src => "assets/images/#{ch.photo}", :alt => ch.area}/
 					.content
 						%p.title= ch.question
 						%p.area{:class => ch.classd}= ch.area

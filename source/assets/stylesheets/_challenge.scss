@@ -191,6 +191,22 @@
         margin-left: 20px;
       }
     }
+    @media(max-width: 675px){
+      width: 80%;
+    }
+    @media(max-width: 550px){
+      .svg.svg{
+        float: none;
+        margin: 0 auto;
+        text-align: center;
+      }
+      li{
+        text-align: center;
+        &:last-child{
+          margin-bottom: 0;
+        }
+      }
+    }
   }
   .title{
     font-size: 45px;
