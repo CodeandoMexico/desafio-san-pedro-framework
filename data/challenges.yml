@@ -13,14 +13,21 @@
   remember: los espacios públicos son de todos y todas, por lo que la solución que integre mayores voces y diversidad en su propuesta tendrá mayor legitimidad y posibilidades de éxito durante la etapa de implementación. 
   datos:
     - 
-      name: Listado de los espacios públicos del municipio;
-      link: 
+      name: Dirección, horarios y actividades de bibliotecas del municipio
+      link: http://datamx.io/dataset/direccion-horarios-y-actividades-de-bibliotecas-del-municipio
     - 
-      name: Listado de las actividades que se realizan por espacio público;
-      link: 
+      name: Inmuebles San Pedro Garza García
+      link: http://datamx.io/dataset/inmuebles-spgg
     - 
-      name: Listado de los servicios e instalaciones con los que se cuenta en cada espacio público (aparatos deportivos, juegos de niños, vitapista, tipo de canchas, tipo de clases etc.)
-      link: 
+      name: Inventario de Áreas Municipales
+      link: http://datamx.io/dataset/inventario-de-areas-municipales-spgg
+    - 
+      name: Cursos en casas de cultura 
+      link: http://datamx.io/dataset/cursos-casas-de-cultura-spgg
+    - 
+      name: Instalaciones deportivas de San Pedro Garza García
+      link: http://datamx.io/dataset/instalaciones-deportivas-spgg
+
   casos:
     - 
       name: "Government of Rio de Janeiro: Crowdsourcing the 2016 Olympic Legacy"
@@ -58,26 +65,8 @@
   remember: no es necesario que propongas una solución que abarque todos los trámites ni responda a todas las preguntas anteriores. Puedes concentrarte en solamente uno y que ese ejercicio, si es exitoso, se replique para todos los demás trámites y servicios aplicables. En cuanto a preguntas sin resolver, si tu propuesta es sólida, durante la etapa de mentoría podemos ir respondiendo a las preguntas que quedaron pendientes.
   datos:
     - 
-      name: Listado de trámites y servicios que brinda el municipio
-      link: 
-    - 
-      name: Listado de trámites donde se destacan los más solicitados
-      link: 
-    - 
-      name: Diagramas de flujo de trámites y servicios municipales
-      link: 
-    - 
-      name: Requisitos de cada trámite
-      link: 
-    - 
-      name: Demanda de trámites ( Los 10 trámites más solicitados por las y los ciudadanos)
-      link: 
-    - 
-      name: Tiempos y costos de cada trámite
-      link: 
-    - 
-      name: Autoridades que intervienen en los trámites
-      link: 
+      name: Trámites San Pedro Garza García
+      link: http://datamx.io/dataset/tramites-spgg
   casos:
     - 
       name: "Using Technology to Tackle Corruption in Urban Development"
