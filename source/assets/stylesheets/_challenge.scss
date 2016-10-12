@@ -2,6 +2,7 @@
   margin: 6% auto;
   .container{
     @include outer-container;
+    @include pad();
   }
   .row.header{
     @include row();
@@ -97,6 +98,27 @@
     @include transition(all, 300ms, ease-in-out);
     &:hover{
       background: darken(#22a5f6, 10%);
+    }
+  }
+  @media(max-width: 550px){
+    .image, .title{
+      @include span-columns(12);
+    }
+    p, label, li, td, th{
+      font-size: 1em;
+    }
+    .fill-content .criteria{
+      padding: 8%;
+    }
+    .btn.call-to-action{
+      width: 100%;
+    }
+    .row.blocks.blocks{
+      display: block;
+    }
+    .row.blocks .block.block{
+      @include span-columns(12);
+      display: block;
     }
   }
 }
