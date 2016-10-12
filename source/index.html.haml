@@ -3,7 +3,7 @@ title: Desafío San Pedro
 ---
 
 -# Banner Principal
-%section.banner.dark-blue-background
+%section.banner.dark-blue-background.main-banner
   %img.banner-img{:src => "/assets/images/banner3.jpg", :alt => "Banner"}/
 
 -# Sección: ¿Qué es?
@@ -96,3 +96,21 @@ title: Desafío San Pedro
       .present.svg
       %p Al concluir el programa los equipos seleccionados presentarán sus proyectos ante el Alcalde y la comunidad
 .clear
+
+- content_for :bottomScripts do
+  :javascript
+    checkBanner();
+    $(window).resize(checkBanner());
+    function checkBanner(){
+      console.log("helo world");
+      if($(window).width() <= 550){
+        var img = $('.main-banner').find('img').attr('src');
+        $('.main-banner').css({
+          "background-image": "url("+img+")",
+          "height": "100vh",
+          "background-repeat": "no-repeat",
+          "background-size": "200%",
+          "background-position": "55% center"
+        });
+      }
+    }
