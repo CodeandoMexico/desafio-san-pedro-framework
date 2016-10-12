@@ -305,6 +305,9 @@
       }
       &.center{
         @include shift(4);
+        .name{
+          margin-bottom: 0;
+        }
       }
     }
     .overlay-data{

@@ -21,6 +21,8 @@ title: El Equipo
 					.imagen
 						%img{:src => "assets/images/equipo/#{member.image}", :alt => member.name}/
 					%p.name.lspartan= member.name
+					- if j == 3
+						%p.bottom{:style => "text-align: center; font-size:20px; margin-top: -5px;"} &iexcl;&Uacute;nete al equipo!
 	= partial "patterns/modals"
 - content_for :bottomScripts do
 	:javascript
