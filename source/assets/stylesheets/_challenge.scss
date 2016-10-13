@@ -457,6 +457,17 @@
     }
   }
 }
+
+.desafios_desafio-5{
+  .fill-content .container{
+    padding-top: 0;
+  }
+  .btn.call-to-action{
+    margin-bottom: 0;
+  }
+}
+
+
 .bg-dspred{background-color: $dsp__red; }
 .bg-dspblue{background-color: $dsp__blue; }
 .bg-dspblue2{background-color: $dsp__blue2; }
@@ -464,3 +475,4 @@
 .bg-dspyellow{background-color: $dsp__yellow; }
 .bg-dspgreen{background-color: $dsp__green; }
 p, li, label{color: #808080; }
+
