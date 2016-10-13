@@ -60,7 +60,7 @@ title: Desaf&iacute;o
         %ul
           - ch.casos.each do | caso |
             %li= link_to caso.name, caso.link, :target => "_blank"
-  .shareaholic-canvas{"data-app"=> "share_buttons", "data-app-id" => ""}
+  .shareaholic-canvas{"data-app"=> "share_buttons", "data-app-id" => "", "data-link" => "http://desafios.sanpedro.gob.mx/desafio-#{ch.id}.html", "data-image" => "http://desafiosp.herokuapp.com/assets/images/fb_banner.png", "data-summary" => ch.description, "data-title" => ch.question+" - DesafíoSP"}
   = link_to "&iexcl;M&aacute;ndanos tu idea!", "form.html", :class => "btn call-to-action"
   %p.limit Fecha L&iacute;mite para mandar tu idea: 14 de noviembre 2016
 %script{:src => "http://dsms0mj1bbhn4.cloudfront.net/assets/pub/shareaholic.js", :data => {:cfasync => "false", :shr_siteid => "2357cca68f3d71b895bc25d13e44fb36"}}
