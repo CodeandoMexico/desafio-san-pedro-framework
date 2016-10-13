@@ -17,14 +17,38 @@
       &.last{
         margin-right: 0;
         float: right;
-        visibility: hidden;
       }
     }
   }
   .footer-logos{
+    .social{
+      float: right;
+      .fb, .tw{
+        display: block;
+        float: left;
+      }
+      .fb{
+        background: url(../images/fb.svg) no-repeat;
+        width: 30px;
+        height: 30px;
+      }
+      .tw{
+        background: url(../images/tw.svg) no-repeat;
+        width: 30px;
+        height: 30px;
+        margin-right: 0;
+      }
+    }
     margin-top: 40px;
     a{
       margin-right: 2em;
+      display: block;
+    }
+    .logos{
+      float: left;
+    }
+    .logos a{
+      float: left;
     }
   }
 }

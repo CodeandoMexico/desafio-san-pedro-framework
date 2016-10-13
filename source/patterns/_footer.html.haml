@@ -10,10 +10,14 @@
         %li= link_to "Contacto", "contact.html"
         %li= link_to "Aviso de Privacidad", "privacidad.html"
         %li.last &iexcl;S&iacute;guenos!
-    .footer-logos
-      %a{:href => "http://thegovlab.org", :target => "_blank"}
-        = image_tag "logos/logo__govlab-blanco.png", style: 'width: 150px', alt: "Govlab Logo"
-      %a{:href => "http://sanpedro.gob.mx", :target => "_blank"}
-        = image_tag "logos/logo__san-pedro-blanco.png", style: 'width: 90px', alt: "San Pedro Logo"
-      %a{:href => "https://codeandomexico.org", :target => "_blank"}
-        = image_tag "logos/logo__codeandomexico-blanco.png", style: 'width: 220px', alt: "Codeando México Logo"
+    .footer-logos.cf
+      .logos.cf
+        %a{:href => "http://thegovlab.org", :target => "_blank"}
+          = image_tag "logos/logo__govlab-blanco.png", style: 'width: 150px', alt: "Govlab Logo"
+        %a{:href => "http://sanpedro.gob.mx", :target => "_blank"}
+          = image_tag "logos/logo__san-pedro-blanco.png", style: 'width: 90px', alt: "San Pedro Logo"
+        %a{:href => "https://codeandomexico.org", :target => "_blank"}
+          = image_tag "logos/logo__codeandomexico-blanco.png", style: 'width: 220px', alt: "Codeando México Logo"
+      .u-fr.social.cf
+        %a.fb{:href => "https://www.facebook.com/desafiosp/"}
+        %a.tw{:href => "https://twitter.com/desafio_sp"}
